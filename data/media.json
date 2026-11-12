@@ -470,6 +470,163 @@
         }
       ]
     },
+    "OpenDoor": {
+      "task": "OpenDoor",
+      "seed": 53040000,
+      "images": {
+        "53040000": {
+          "base_camera": "assets/scene-OpenDoor/53040000_base_camera.jpg",
+          "scene_camera": "assets/scene-OpenDoor/53040000_scene_camera.jpg",
+          "ee_camera": "assets/scene-OpenDoor/53040000_ee_camera.jpg"
+        },
+        "53040009": {
+          "base_camera": "assets/scene-OpenDoor/53040009_base_camera.jpg",
+          "ee_camera": "assets/scene-OpenDoor/53040009_ee_camera.jpg",
+          "scene_camera": "assets/scene-OpenDoor/53040009_scene_camera.jpg"
+        },
+        "53040003": {
+          "scene_camera": "assets/scene-OpenDoor/53040003_scene_camera.jpg",
+          "ee_camera": "assets/scene-OpenDoor/53040003_ee_camera.jpg",
+          "base_camera": "assets/scene-OpenDoor/53040003_base_camera.jpg"
+        }
+      },
+      "realizations": [
+        {
+          "seed": 53040000,
+          "objects": {
+            "door": [
+              0.9314780831336975,
+              -0.06558465957641602,
+              0.0
+            ]
+          },
+          "goal": null
+        },
+        {
+          "seed": 53040003,
+          "objects": {
+            "door": [
+              0.9388543963432312,
+              0.2962459921836853,
+              0.0
+            ]
+          },
+          "goal": null
+        },
+        {
+          "seed": 53040009,
+          "objects": {
+            "door": [
+              1.2578585147857666,
+              -0.2023843228816986,
+              0.0
+            ]
+          },
+          "goal": null
+        }
+      ]
+    },
+    "PegInHole": {
+      "task": "PegInHole",
+      "seed": 53050000,
+      "images": {
+        "53050000": {
+          "base_camera": "assets/scene-PegInHole/53050000_base_camera.jpg",
+          "scene_camera": "assets/scene-PegInHole/53050000_scene_camera.jpg",
+          "ee_camera": "assets/scene-PegInHole/53050000_ee_camera.jpg",
+          "detail": "assets/scene-PegInHole/53050000_detail.jpg"
+        },
+        "53050003": {
+          "base_camera": "assets/scene-PegInHole/53050003_base_camera.jpg",
+          "detail": "assets/scene-PegInHole/53050003_detail.jpg",
+          "scene_camera": "assets/scene-PegInHole/53050003_scene_camera.jpg",
+          "ee_camera": "assets/scene-PegInHole/53050003_ee_camera.jpg"
+        },
+        "53050009": {
+          "scene_camera": "assets/scene-PegInHole/53050009_scene_camera.jpg",
+          "ee_camera": "assets/scene-PegInHole/53050009_ee_camera.jpg",
+          "detail": "assets/scene-PegInHole/53050009_detail.jpg",
+          "base_camera": "assets/scene-PegInHole/53050009_base_camera.jpg"
+        }
+      },
+      "realizations": [
+        {
+          "seed": 53050000,
+          "objects": {
+            "wall": [
+              2.0745303630828857,
+              -0.12129402160644531,
+              1.0
+            ],
+            "hole_object": [
+              2.0194497108459473,
+              -0.27024176716804504,
+              1.0448514223098755
+            ],
+            "peg_object": [
+              0.4069998264312744,
+              1.9467187861721413e-09,
+              1.1237499713897705
+            ]
+          },
+          "goal": [
+            2.0194497108459473,
+            -0.27024176716804504,
+            1.0448514223098755
+          ]
+        },
+        {
+          "seed": 53050003,
+          "objects": {
+            "wall": [
+              2.0709493160247803,
+              0.17337127029895782,
+              1.0
+            ],
+            "hole_object": [
+              1.954161286354065,
+              0.22662560641765594,
+              1.165514349937439
+            ],
+            "peg_object": [
+              0.4069998264312744,
+              1.9467187861721413e-09,
+              1.1237499713897705
+            ]
+          },
+          "goal": [
+            1.954161286354065,
+            0.22662560641765594,
+            1.165514349937439
+          ]
+        },
+        {
+          "seed": 53050009,
+          "objects": {
+            "wall": [
+              2.1467337608337402,
+              0.1862429529428482,
+              1.0
+            ],
+            "hole_object": [
+              2.057910442352295,
+              0.23395897448062897,
+              1.0198560953140259
+            ],
+            "peg_object": [
+              0.4069998264312744,
+              1.9467187861721413e-09,
+              1.1237499713897705
+            ]
+          },
+          "goal": [
+            2.057910442352295,
+            0.23395897448062897,
+            1.0198560953140259
+          ]
+        }
+      ]
+    },
     "PressButton": {
       "task": "PressButton",
       "seed": 53060000,
@@ -550,6 +707,314 @@
             -0.013743534684181213,
             0.8923404812812805
           ]
+        }
+      ]
+    },
+    "PullLever": {
+      "task": "PullLever",
+      "seed": 53070000,
+      "images": {
+        "53070009": {
+          "base_camera": "assets/scene-PullLever/53070009_base_camera.jpg",
+          "scene_camera": "assets/scene-PullLever/53070009_scene_camera.jpg",
+          "ee_camera": "assets/scene-PullLever/53070009_ee_camera.jpg",
+          "detail": "assets/scene-PullLever/53070009_detail.jpg"
+        },
+        "53070000": {
+          "ee_camera": "assets/scene-PullLever/53070000_ee_camera.jpg",
+          "scene_camera": "assets/scene-PullLever/53070000_scene_camera.jpg",
+          "base_camera": "assets/scene-PullLever/53070000_base_camera.jpg",
+          "detail": "assets/scene-PullLever/53070000_detail.jpg"
+        },
+        "53070003": {
+          "ee_camera": "assets/scene-PullLever/53070003_ee_camera.jpg",
+          "detail": "assets/scene-PullLever/53070003_detail.jpg",
+          "scene_camera": "assets/scene-PullLever/53070003_scene_camera.jpg",
+          "base_camera": "assets/scene-PullLever/53070003_base_camera.jpg"
+        }
+      },
+      "realizations": [
+        {
+          "seed": 53070000,
+          "objects": {
+            "wall": [
+              2.164947986602783,
+              -0.11356442421674728,
+              1.0
+            ],
+            "lever_object": [
+              2.084747314453125,
+              -0.0270533487200737,
+              1.2300790548324585
+            ]
+          },
+          "goal": null
+        },
+        {
+          "seed": 53070003,
+          "objects": {
+            "wall": [
+              1.8812319040298462,
+              0.10131169855594635,
+              1.0
+            ],
+            "lever_object": [
+              1.8023762702941895,
+              -0.1602732390165329,
+              0.9360707998275757
+            ]
+          },
+          "goal": null
+        },
+        {
+          "seed": 53070009,
+          "objects": {
+            "wall": [
+              1.9317821264266968,
+              0.18048058450222015,
+              1.0
+            ],
+            "lever_object": [
+              1.8503457307815552,
+              0.20637087523937225,
+              0.9748905897140503
+            ]
+          },
+          "goal": null
+        }
+      ]
+    },
+    "PushSlider": {
+      "task": "PushSlider",
+      "seed": 53080000,
+      "images": {
+        "53080003": {
+          "base_camera": "assets/scene-PushSlider/53080003_base_camera.jpg",
+          "ee_camera": "assets/scene-PushSlider/53080003_ee_camera.jpg",
+          "scene_camera": "assets/scene-PushSlider/53080003_scene_camera.jpg",
+          "detail": "assets/scene-PushSlider/53080003_detail.jpg"
+        },
+        "53080009": {
+          "detail": "assets/scene-PushSlider/53080009_detail.jpg",
+          "scene_camera": "assets/scene-PushSlider/53080009_scene_camera.jpg",
+          "ee_camera": "assets/scene-PushSlider/53080009_ee_camera.jpg",
+          "base_camera": "assets/scene-PushSlider/53080009_base_camera.jpg"
+        },
+        "53080000": {
+          "scene_camera": "assets/scene-PushSlider/53080000_scene_camera.jpg",
+          "base_camera": "assets/scene-PushSlider/53080000_base_camera.jpg",
+          "detail": "assets/scene-PushSlider/53080000_detail.jpg",
+          "ee_camera": "assets/scene-PushSlider/53080000_ee_camera.jpg"
+        }
+      },
+      "realizations": [
+        {
+          "seed": 53080000,
+          "objects": {
+            "wall": [
+              2.0401551723480225,
+              -0.020063385367393494,
+              1.0
+            ],
+            "slider": [
+              1.9901552200317383,
+              -0.22662340104579926,
+              1.2051243782043457
+            ]
+          },
+          "goal": null
+        },
+        {
+          "seed": 53080003,
+          "objects": {
+            "wall": [
+              2.1301980018615723,
+              0.1408209651708603,
+              1.0
+            ],
+            "slider": [
+              2.080198049545288,
+              -0.10684554278850555,
+              0.7720837593078613
+            ]
+          },
+          "goal": null
+        },
+        {
+          "seed": 53080009,
+          "objects": {
+            "wall": [
+              2.1710121631622314,
+              0.1149514764547348,
+              1.0
+            ],
+            "slider": [
+              2.1210122108459473,
+              -0.16721202433109283,
+              0.9357539415359497
+            ]
+          },
+          "goal": null
+        }
+      ]
+    },
+    "RotateValve": {
+      "task": "RotateValve",
+      "seed": 53090000,
+      "images": {
+        "53090009": {
+          "detail": "assets/scene-RotateValve/53090009_detail.jpg",
+          "base_camera": "assets/scene-RotateValve/53090009_base_camera.jpg",
+          "scene_camera": "assets/scene-RotateValve/53090009_scene_camera.jpg",
+          "ee_camera": "assets/scene-RotateValve/53090009_ee_camera.jpg"
+        },
+        "53090003": {
+          "scene_camera": "assets/scene-RotateValve/53090003_scene_camera.jpg",
+          "ee_camera": "assets/scene-RotateValve/53090003_ee_camera.jpg",
+          "detail": "assets/scene-RotateValve/53090003_detail.jpg",
+          "base_camera": "assets/scene-RotateValve/53090003_base_camera.jpg"
+        },
+        "53090000": {
+          "base_camera": "assets/scene-RotateValve/53090000_base_camera.jpg",
+          "ee_camera": "assets/scene-RotateValve/53090000_ee_camera.jpg",
+          "scene_camera": "assets/scene-RotateValve/53090000_scene_camera.jpg",
+          "detail": "assets/scene-RotateValve/53090000_detail.jpg"
+        }
+      },
+      "realizations": [
+        {
+          "seed": 53090000,
+          "objects": {
+            "wall": [
+              2.1809427738189697,
+              0.17268414795398712,
+              1.0
+            ],
+            "valve_object": [
+              2.1209428310394287,
+              0.13540862500667572,
+              1.1328710317611694
+            ]
+          },
+          "goal": [
+            2.0365660190582275,
+            0.13540862500667572,
+            1.0317422151565552
+          ]
+        },
+        {
+          "seed": 53090003,
+          "objects": {
+            "wall": [
+              2.0641555786132812,
+              -0.03624226152896881,
+              1.0
+            ],
+            "valve_object": [
+              2.0041556358337402,
+              0.0911078155040741,
+              0.8417333960533142
+            ]
+          },
+          "goal": [
+            1.919778823852539,
+            0.0911078080534935,
+            0.7406045794487
+          ]
+        },
+        {
+          "seed": 53090009,
+          "objects": {
+            "wall": [
+              1.8728282451629639,
+              0.1875317543745041,
+              1.0
+            ],
+            "valve_object": [
+              1.8128283023834229,
+              0.19438423216342926,
+              1.0851610898971558
+            ]
+          },
+          "goal": [
+            1.7284514904022217,
+            0.19438423216342926,
+            0.9840322732925415
+          ]
+        }
+      ]
+    },
+    "TossBall": {
+      "task": "TossBall",
+      "seed": 53100000,
+      "images": {
+        "53100003": {
+          "detail": "assets/scene-TossBall/53100003_detail.jpg",
+          "scene_camera": "assets/scene-TossBall/53100003_scene_camera.jpg",
+          "base_camera": "assets/scene-TossBall/53100003_base_camera.jpg",
+          "ee_camera": "assets/scene-TossBall/53100003_ee_camera.jpg"
+        },
+        "53100009": {
+          "scene_camera": "assets/scene-TossBall/53100009_scene_camera.jpg",
+          "ee_camera": "assets/scene-TossBall/53100009_ee_camera.jpg",
+          "detail": "assets/scene-TossBall/53100009_detail.jpg",
+          "base_camera": "assets/scene-TossBall/53100009_base_camera.jpg"
+        },
+        "53100000": {
+          "ee_camera": "assets/scene-TossBall/53100000_ee_camera.jpg",
+          "base_camera": "assets/scene-TossBall/53100000_base_camera.jpg",
+          "detail": "assets/scene-TossBall/53100000_detail.jpg",
+          "scene_camera": "assets/scene-TossBall/53100000_scene_camera.jpg"
+        }
+      },
+      "realizations": [
+        {
+          "seed": 53100000,
+          "objects": {
+            "container": [
+              2.329780101776123,
+              0.16127711534500122,
+              -7.450580596923828e-09
+            ],
+            "ball": [
+              0.35699981451034546,
+              2.7041970884766897e-09,
+              1.1237499713897705
+            ]
+          },
+          "goal": null
+        },
+        {
+          "seed": 53100003,
+          "objects": {
+            "container": [
+              2.0865044593811035,
+              0.010671138763427734,
+              -7.450580596923828e-09
+            ],
+            "ball": [
+              0.35699981451034546,
+              2.7041970884766897e-09,
+              1.1237499713897705
+            ]
+          },
+          "goal": null
+        },
+        {
+          "seed": 53100009,
+          "objects": {
+            "container": [
+              1.8607091903686523,
+              -0.399659663438797,
+              -7.450580596923828e-09
+            ],
+            "ball": [
+              0.35699981451034546,
+              2.7041970884766897e-09,
+              1.1237499713897705
+            ]
+          },
+          "goal": null
         }
       ]
     }

@@ -1,9 +1,10 @@
 {
   "scope": "Current deployed AMBench scene bundle; E18 resolved 12-task configs cross-checked",
   "scene_protocol_sha256": "9ed5f5a4e07e5c09320843feb44d1c25f91367e8d373bcb81f2b4a1289b48ae5",
-  "renderer_current_sha256": "1454c680771322e88c1b24e2f0d59b57bd13f86961effe1851629082f1082c4c",
+  "renderer_current_sha256": "ce9d34d676837c394f6ddf58ad0be103a10030eb71beff4755f03ec67e789cb9",
   "renderer_archived_versions": {
     "atlas_worker_v1_evidence.py": "085deaaf7e886ed51d4680dc31df276ac505fe25dd9b3003275a8c0cf0717413",
+    "atlas_worker_v3_evidence.py": "1454c680771322e88c1b24e2f0d59b57bd13f86961effe1851629082f1082c4c",
     "atlas_worker_v2_evidence.py": "dbdb03cafc6b04b4c3e38cb0f61d48c5f9c57af274e7e7ec74c947aef2f30725"
   },
   "command_source": "Existing E11 PressButton/WipeWindow, E17 TossBall requested_action logs. No model inference.",
@@ -11,7 +12,7 @@
   "initial_state_precision": "Numeric initial robot and object states rounded to 1e-6 for signature. Not a substitute for geometry/material audit.",
   "budget": {
     "cap_gpu_hours": 10,
-    "actual_gpu_hours": 0.595
+    "actual_gpu_hours": 1.0516666666666667
   },
   "training": false,
   "scored_benchmark": false
