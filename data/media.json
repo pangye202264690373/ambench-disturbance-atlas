@@ -4,20 +4,35 @@
       "task": "CabinetPickPlace",
       "seed": 53000000,
       "images": {
+        "53000000": {
+          "detail": "assets/scene-CabinetPickPlace-interior/53000000_detail.jpg",
+          "candidate2": "assets/scene-CabinetPickPlace-interior/53000000_candidate2.jpg",
+          "base_camera": "assets/scene-CabinetPickPlace-interior/53000000_base_camera.jpg",
+          "candidate3": "assets/scene-CabinetPickPlace-interior/53000000_candidate3.jpg",
+          "candidate1": "assets/scene-CabinetPickPlace-interior/53000000_candidate1.jpg",
+          "ee_camera": "assets/scene-CabinetPickPlace-interior/53000000_ee_camera.jpg",
+          "candidate0": "assets/scene-CabinetPickPlace-interior/53000000_candidate0.jpg",
+          "scene_camera": "assets/scene-CabinetPickPlace-interior/53000000_scene_camera.jpg"
+        },
         "53000009": {
-          "scene_camera": "assets/scene-CabinetPickPlace/53000009_scene_camera.jpg",
-          "base_camera": "assets/scene-CabinetPickPlace/53000009_base_camera.jpg",
-          "ee_camera": "assets/scene-CabinetPickPlace/53000009_ee_camera.jpg"
+          "candidate1": "assets/scene-CabinetPickPlace-interior/53000009_candidate1.jpg",
+          "scene_camera": "assets/scene-CabinetPickPlace-interior/53000009_scene_camera.jpg",
+          "candidate0": "assets/scene-CabinetPickPlace-interior/53000009_candidate0.jpg",
+          "base_camera": "assets/scene-CabinetPickPlace-interior/53000009_base_camera.jpg",
+          "candidate2": "assets/scene-CabinetPickPlace-interior/53000009_candidate2.jpg",
+          "candidate3": "assets/scene-CabinetPickPlace-interior/53000009_candidate3.jpg",
+          "detail": "assets/scene-CabinetPickPlace-interior/53000009_detail.jpg",
+          "ee_camera": "assets/scene-CabinetPickPlace-interior/53000009_ee_camera.jpg"
         },
         "53000003": {
-          "base_camera": "assets/scene-CabinetPickPlace/53000003_base_camera.jpg",
-          "ee_camera": "assets/scene-CabinetPickPlace/53000003_ee_camera.jpg",
-          "scene_camera": "assets/scene-CabinetPickPlace/53000003_scene_camera.jpg"
-        },
-        "53000000": {
-          "base_camera": "assets/scene-CabinetPickPlace/53000000_base_camera.jpg",
-          "ee_camera": "assets/scene-CabinetPickPlace/53000000_ee_camera.jpg",
-          "scene_camera": "assets/scene-CabinetPickPlace/53000000_scene_camera.jpg"
+          "base_camera": "assets/scene-CabinetPickPlace-interior/53000003_base_camera.jpg",
+          "candidate2": "assets/scene-CabinetPickPlace-interior/53000003_candidate2.jpg",
+          "detail": "assets/scene-CabinetPickPlace-interior/53000003_detail.jpg",
+          "candidate0": "assets/scene-CabinetPickPlace-interior/53000003_candidate0.jpg",
+          "ee_camera": "assets/scene-CabinetPickPlace-interior/53000003_ee_camera.jpg",
+          "scene_camera": "assets/scene-CabinetPickPlace-interior/53000003_scene_camera.jpg",
+          "candidate3": "assets/scene-CabinetPickPlace-interior/53000003_candidate3.jpg",
+          "candidate1": "assets/scene-CabinetPickPlace-interior/53000003_candidate1.jpg"
         }
       },
       "realizations": [
@@ -487,19 +502,22 @@
       "seed": 53040000,
       "images": {
         "53040000": {
-          "base_camera": "assets/scene-OpenDoor/53040000_base_camera.jpg",
-          "scene_camera": "assets/scene-OpenDoor/53040000_scene_camera.jpg",
-          "ee_camera": "assets/scene-OpenDoor/53040000_ee_camera.jpg"
+          "base_camera": "assets/scene-OpenDoor-detail/53040000_base_camera.jpg",
+          "detail": "assets/scene-OpenDoor-detail/53040000_detail.jpg",
+          "scene_camera": "assets/scene-OpenDoor-detail/53040000_scene_camera.jpg",
+          "ee_camera": "assets/scene-OpenDoor-detail/53040000_ee_camera.jpg"
         },
         "53040009": {
-          "base_camera": "assets/scene-OpenDoor/53040009_base_camera.jpg",
-          "ee_camera": "assets/scene-OpenDoor/53040009_ee_camera.jpg",
-          "scene_camera": "assets/scene-OpenDoor/53040009_scene_camera.jpg"
+          "base_camera": "assets/scene-OpenDoor-detail/53040009_base_camera.jpg",
+          "ee_camera": "assets/scene-OpenDoor-detail/53040009_ee_camera.jpg",
+          "scene_camera": "assets/scene-OpenDoor-detail/53040009_scene_camera.jpg",
+          "detail": "assets/scene-OpenDoor-detail/53040009_detail.jpg"
         },
         "53040003": {
-          "scene_camera": "assets/scene-OpenDoor/53040003_scene_camera.jpg",
-          "ee_camera": "assets/scene-OpenDoor/53040003_ee_camera.jpg",
-          "base_camera": "assets/scene-OpenDoor/53040003_base_camera.jpg"
+          "scene_camera": "assets/scene-OpenDoor-detail/53040003_scene_camera.jpg",
+          "ee_camera": "assets/scene-OpenDoor-detail/53040003_ee_camera.jpg",
+          "detail": "assets/scene-OpenDoor-detail/53040003_detail.jpg",
+          "base_camera": "assets/scene-OpenDoor-detail/53040003_base_camera.jpg"
         }
       },
       "realizations": [
@@ -513,7 +531,13 @@
             ]
           },
           "goal": null,
-          "realized_parameters": {}
+          "realized_parameters": {
+            "door_joint_damping": [
+              [
+                5.498291015625
+              ]
+            ]
+          }
         },
         {
           "seed": 53040003,
@@ -525,7 +549,13 @@
             ]
           },
           "goal": null,
-          "realized_parameters": {}
+          "realized_parameters": {
+            "door_joint_damping": [
+              [
+                2.8249480724334717
+              ]
+            ]
+          }
         },
         {
           "seed": 53040009,
@@ -537,7 +567,13 @@
             ]
           },
           "goal": null,
-          "realized_parameters": {}
+          "realized_parameters": {
+            "door_joint_damping": [
+              [
+                9.796939849853516
+              ]
+            ]
+          }
         }
       ]
     },
@@ -650,19 +686,22 @@
       "seed": 53060000,
       "images": {
         "53060000": {
-          "ee_camera": "assets/scene-PressButton/53060000_ee_camera.jpg",
-          "base_camera": "assets/scene-PressButton/53060000_base_camera.jpg",
-          "scene_camera": "assets/scene-PressButton/53060000_scene_camera.jpg"
-        },
-        "53060009": {
-          "scene_camera": "assets/scene-PressButton/53060009_scene_camera.jpg",
-          "ee_camera": "assets/scene-PressButton/53060009_ee_camera.jpg",
-          "base_camera": "assets/scene-PressButton/53060009_base_camera.jpg"
+          "ee_camera": "assets/scene-PressButton-detail/53060000_ee_camera.jpg",
+          "base_camera": "assets/scene-PressButton-detail/53060000_base_camera.jpg",
+          "detail": "assets/scene-PressButton-detail/53060000_detail.jpg",
+          "scene_camera": "assets/scene-PressButton-detail/53060000_scene_camera.jpg"
         },
         "53060003": {
-          "ee_camera": "assets/scene-PressButton/53060003_ee_camera.jpg",
-          "scene_camera": "assets/scene-PressButton/53060003_scene_camera.jpg",
-          "base_camera": "assets/scene-PressButton/53060003_base_camera.jpg"
+          "detail": "assets/scene-PressButton-detail/53060003_detail.jpg",
+          "ee_camera": "assets/scene-PressButton-detail/53060003_ee_camera.jpg",
+          "scene_camera": "assets/scene-PressButton-detail/53060003_scene_camera.jpg",
+          "base_camera": "assets/scene-PressButton-detail/53060003_base_camera.jpg"
+        },
+        "53060009": {
+          "scene_camera": "assets/scene-PressButton-detail/53060009_scene_camera.jpg",
+          "detail": "assets/scene-PressButton-detail/53060009_detail.jpg",
+          "ee_camera": "assets/scene-PressButton-detail/53060009_ee_camera.jpg",
+          "base_camera": "assets/scene-PressButton-detail/53060009_base_camera.jpg"
         }
       },
       "realizations": [
@@ -1410,6 +1449,111 @@
         "motor_max_n": 22.83635902404785
       }
     },
+    "PressButton-ground": {
+      "task": "PressButton",
+      "seed": 53060000,
+      "images": {
+        "53060000": {
+          "ee_camera": "assets/replay-PressButton-ground/53060000_ee_camera.jpg",
+          "base_camera": "assets/replay-PressButton-ground/53060000_base_camera.jpg",
+          "scene_camera": "assets/replay-PressButton-ground/53060000_scene_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-PressButton-ground/scene_camera.mp4",
+        "base_camera": "assets/replay-PressButton-ground/base_camera.mp4"
+      },
+      "series": "data/replay-PressButton-ground.json",
+      "summary": {
+        "ee_error_p95_mm": 9.07790415019893,
+        "tilt_p95_deg": 0.930575428547879,
+        "motor_max_n": 108.0743637084961
+      }
+    },
+    "PressButton-wall": {
+      "task": "PressButton",
+      "seed": 53060000,
+      "images": {
+        "53060000": {
+          "ee_camera": "assets/replay-PressButton-wall/53060000_ee_camera.jpg",
+          "base_camera": "assets/replay-PressButton-wall/53060000_base_camera.jpg",
+          "scene_camera": "assets/replay-PressButton-wall/53060000_scene_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-PressButton-wall/scene_camera.mp4",
+        "base_camera": "assets/replay-PressButton-wall/base_camera.mp4"
+      },
+      "series": "data/replay-PressButton-wall.json",
+      "summary": {
+        "ee_error_p95_mm": 9.069401589192065,
+        "tilt_p95_deg": 0.9301731984303028,
+        "motor_max_n": 107.75518035888672
+      }
+    },
+    "PressButton-drag": {
+      "task": "PressButton",
+      "seed": 53060000,
+      "images": {
+        "53060000": {
+          "ee_camera": "assets/replay-PressButton-drag/53060000_ee_camera.jpg",
+          "base_camera": "assets/replay-PressButton-drag/53060000_base_camera.jpg",
+          "scene_camera": "assets/replay-PressButton-drag/53060000_scene_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-PressButton-drag/scene_camera.mp4",
+        "base_camera": "assets/replay-PressButton-drag/base_camera.mp4"
+      },
+      "series": "data/replay-PressButton-drag.json",
+      "summary": {
+        "ee_error_p95_mm": 9.06235388371534,
+        "tilt_p95_deg": 0.9310993081814428,
+        "motor_max_n": 108.17829895019531
+      }
+    },
+    "PressButton-aero": {
+      "task": "PressButton",
+      "seed": 53060000,
+      "images": {
+        "53060000": {
+          "ee_camera": "assets/replay-PressButton-aero/53060000_ee_camera.jpg",
+          "base_camera": "assets/replay-PressButton-aero/53060000_base_camera.jpg",
+          "scene_camera": "assets/replay-PressButton-aero/53060000_scene_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-PressButton-aero/scene_camera.mp4",
+        "base_camera": "assets/replay-PressButton-aero/base_camera.mp4"
+      },
+      "series": "data/replay-PressButton-aero.json",
+      "summary": {
+        "ee_error_p95_mm": 9.056228195587895,
+        "tilt_p95_deg": 0.9297971999593456,
+        "motor_max_n": 107.93391418457031
+      }
+    },
+    "PressButton-wind": {
+      "task": "PressButton",
+      "seed": 53060000,
+      "images": {
+        "53060000": {
+          "ee_camera": "assets/replay-PressButton-wind/53060000_ee_camera.jpg",
+          "base_camera": "assets/replay-PressButton-wind/53060000_base_camera.jpg",
+          "scene_camera": "assets/replay-PressButton-wind/53060000_scene_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-PressButton-wind/scene_camera.mp4",
+        "base_camera": "assets/replay-PressButton-wind/base_camera.mp4"
+      },
+      "series": "data/replay-PressButton-wind.json",
+      "summary": {
+        "ee_error_p95_mm": 9.1064093666693,
+        "tilt_p95_deg": 0.9302833372264978,
+        "motor_max_n": 106.74079132080078
+      }
+    },
     "PressButton-full": {
       "task": "PressButton",
       "seed": 53060000,
@@ -1429,6 +1573,174 @@
         "ee_error_p95_mm": 28.91207550924477,
         "tilt_p95_deg": 1.1693252560554157,
         "motor_max_n": 22.923873901367188
+      }
+    },
+    "TossBall-baseline": {
+      "task": "TossBall",
+      "seed": 53100000,
+      "images": {
+        "53100000": {
+          "ee_camera": "assets/replay-TossBall-baseline/53100000_ee_camera.jpg",
+          "base_camera": "assets/replay-TossBall-baseline/53100000_base_camera.jpg",
+          "scene_camera": "assets/replay-TossBall-baseline/53100000_scene_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-TossBall-baseline/scene_camera.mp4",
+        "base_camera": "assets/replay-TossBall-baseline/base_camera.mp4"
+      },
+      "series": "data/replay-TossBall-baseline.json",
+      "summary": {
+        "ee_error_p95_mm": 101.63571298659025,
+        "tilt_p95_deg": 0.30803316239970474,
+        "motor_max_n": 470.9574279785156
+      }
+    },
+    "TossBall-full": {
+      "task": "TossBall",
+      "seed": 53100000,
+      "images": {
+        "53100000": {
+          "ee_camera": "assets/replay-TossBall-full/53100000_ee_camera.jpg",
+          "base_camera": "assets/replay-TossBall-full/53100000_base_camera.jpg",
+          "scene_camera": "assets/replay-TossBall-full/53100000_scene_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-TossBall-full/scene_camera.mp4",
+        "base_camera": "assets/replay-TossBall-full/base_camera.mp4"
+      },
+      "series": "data/replay-TossBall-full.json",
+      "summary": {
+        "ee_error_p95_mm": 260.4518472007486,
+        "tilt_p95_deg": 9.119208685890547,
+        "motor_max_n": 22.999998092651367
+      }
+    },
+    "WipeWindow-baseline": {
+      "task": "WipeWindow",
+      "seed": 53110000,
+      "images": {
+        "53110000": {
+          "ee_camera": "assets/replay-WipeWindow-baseline/53110000_ee_camera.jpg",
+          "scene_camera": "assets/replay-WipeWindow-baseline/53110000_scene_camera.jpg",
+          "base_camera": "assets/replay-WipeWindow-baseline/53110000_base_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-WipeWindow-baseline/scene_camera.mp4",
+        "base_camera": "assets/replay-WipeWindow-baseline/base_camera.mp4"
+      },
+      "series": "data/replay-WipeWindow-baseline.json",
+      "summary": {
+        "ee_error_p95_mm": 48.96428480821513,
+        "tilt_p95_deg": 2.4435696605799095,
+        "motor_max_n": 118.06838989257812
+      }
+    },
+    "WipeWindow-full": {
+      "task": "WipeWindow",
+      "seed": 53110000,
+      "images": {
+        "53110000": {
+          "ee_camera": "assets/replay-WipeWindow-full/53110000_ee_camera.jpg",
+          "scene_camera": "assets/replay-WipeWindow-full/53110000_scene_camera.jpg",
+          "base_camera": "assets/replay-WipeWindow-full/53110000_base_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-WipeWindow-full/scene_camera.mp4",
+        "base_camera": "assets/replay-WipeWindow-full/base_camera.mp4"
+      },
+      "series": "data/replay-WipeWindow-full.json",
+      "summary": {
+        "ee_error_p95_mm": 53.60776000232666,
+        "tilt_p95_deg": 2.2535639047748615,
+        "motor_max_n": 22.999998092651367
+      }
+    },
+    "OpenDoor-damping_low": {
+      "task": "OpenDoor",
+      "seed": 53040000,
+      "images": {
+        "53040000": {
+          "base_camera": "assets/replay-OpenDoor-damping_low/53040000_base_camera.jpg",
+          "scene_camera": "assets/replay-OpenDoor-damping_low/53040000_scene_camera.jpg",
+          "ee_camera": "assets/replay-OpenDoor-damping_low/53040000_ee_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-OpenDoor-damping_low/scene_camera.mp4",
+        "base_camera": "assets/replay-OpenDoor-damping_low/base_camera.mp4"
+      },
+      "series": "data/replay-OpenDoor-damping_low.json",
+      "summary": {
+        "ee_error_p95_mm": 91.66475314604303,
+        "tilt_p95_deg": 5.639693782646042,
+        "motor_max_n": 22.998271942138672
+      }
+    },
+    "OpenDoor-damping_high": {
+      "task": "OpenDoor",
+      "seed": 53040000,
+      "images": {
+        "53040000": {
+          "base_camera": "assets/replay-OpenDoor-damping_high/53040000_base_camera.jpg",
+          "scene_camera": "assets/replay-OpenDoor-damping_high/53040000_scene_camera.jpg",
+          "ee_camera": "assets/replay-OpenDoor-damping_high/53040000_ee_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-OpenDoor-damping_high/scene_camera.mp4",
+        "base_camera": "assets/replay-OpenDoor-damping_high/base_camera.mp4"
+      },
+      "series": "data/replay-OpenDoor-damping_high.json",
+      "summary": {
+        "ee_error_p95_mm": 66.66355068923167,
+        "tilt_p95_deg": 3.1691463046817443,
+        "motor_max_n": 22.999832153320312
+      }
+    },
+    "WipeWindow-friction_low": {
+      "task": "WipeWindow",
+      "seed": 53110000,
+      "images": {
+        "53110000": {
+          "ee_camera": "assets/replay-WipeWindow-friction_low/53110000_ee_camera.jpg",
+          "scene_camera": "assets/replay-WipeWindow-friction_low/53110000_scene_camera.jpg",
+          "base_camera": "assets/replay-WipeWindow-friction_low/53110000_base_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-WipeWindow-friction_low/scene_camera.mp4",
+        "base_camera": "assets/replay-WipeWindow-friction_low/base_camera.mp4"
+      },
+      "series": "data/replay-WipeWindow-friction_low.json",
+      "summary": {
+        "ee_error_p95_mm": 49.66299909953534,
+        "tilt_p95_deg": 2.022669900501065,
+        "motor_max_n": 22.999998092651367
+      }
+    },
+    "WipeWindow-friction_high": {
+      "task": "WipeWindow",
+      "seed": 53110000,
+      "images": {
+        "53110000": {
+          "ee_camera": "assets/replay-WipeWindow-friction_high/53110000_ee_camera.jpg",
+          "scene_camera": "assets/replay-WipeWindow-friction_high/53110000_scene_camera.jpg",
+          "base_camera": "assets/replay-WipeWindow-friction_high/53110000_base_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-WipeWindow-friction_high/scene_camera.mp4",
+        "base_camera": "assets/replay-WipeWindow-friction_high/base_camera.mp4"
+      },
+      "series": "data/replay-WipeWindow-friction_high.json",
+      "summary": {
+        "ee_error_p95_mm": 50.77851014382924,
+        "tilt_p95_deg": 2.0938689224209917,
+        "motor_max_n": 22.999998092651367
       }
     }
   }

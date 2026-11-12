@@ -163,9 +163,96 @@
     "assets/replay-PressButton-dynamics/53060000_ee_camera.jpg",
     "assets/replay-PressButton-dynamics/53060000_base_camera.jpg",
     "assets/replay-PressButton-dynamics/53060000_scene_camera.jpg",
+    "assets/replay-PressButton-ground/53060000_ee_camera.jpg",
+    "assets/replay-PressButton-ground/53060000_base_camera.jpg",
+    "assets/replay-PressButton-ground/53060000_scene_camera.jpg",
+    "assets/replay-PressButton-wall/53060000_ee_camera.jpg",
+    "assets/replay-PressButton-wall/53060000_base_camera.jpg",
+    "assets/replay-PressButton-wall/53060000_scene_camera.jpg",
+    "assets/replay-PressButton-drag/53060000_ee_camera.jpg",
+    "assets/replay-PressButton-drag/53060000_base_camera.jpg",
+    "assets/replay-PressButton-drag/53060000_scene_camera.jpg",
+    "assets/replay-PressButton-aero/53060000_ee_camera.jpg",
+    "assets/replay-PressButton-aero/53060000_base_camera.jpg",
+    "assets/replay-PressButton-aero/53060000_scene_camera.jpg",
+    "assets/replay-PressButton-wind/53060000_ee_camera.jpg",
+    "assets/replay-PressButton-wind/53060000_base_camera.jpg",
+    "assets/replay-PressButton-wind/53060000_scene_camera.jpg",
     "assets/replay-PressButton-full/53060000_ee_camera.jpg",
     "assets/replay-PressButton-full/53060000_base_camera.jpg",
-    "assets/replay-PressButton-full/53060000_scene_camera.jpg"
+    "assets/replay-PressButton-full/53060000_scene_camera.jpg",
+    "assets/replay-TossBall-baseline/53100000_ee_camera.jpg",
+    "assets/replay-TossBall-baseline/53100000_base_camera.jpg",
+    "assets/replay-TossBall-baseline/53100000_scene_camera.jpg",
+    "assets/replay-TossBall-full/53100000_ee_camera.jpg",
+    "assets/replay-TossBall-full/53100000_base_camera.jpg",
+    "assets/replay-TossBall-full/53100000_scene_camera.jpg",
+    "assets/replay-WipeWindow-baseline/53110000_ee_camera.jpg",
+    "assets/replay-WipeWindow-baseline/53110000_scene_camera.jpg",
+    "assets/replay-WipeWindow-baseline/53110000_base_camera.jpg",
+    "assets/replay-WipeWindow-full/53110000_ee_camera.jpg",
+    "assets/replay-WipeWindow-full/53110000_scene_camera.jpg",
+    "assets/replay-WipeWindow-full/53110000_base_camera.jpg",
+    "assets/replay-OpenDoor-damping_low/53040000_base_camera.jpg",
+    "assets/replay-OpenDoor-damping_low/53040000_scene_camera.jpg",
+    "assets/replay-OpenDoor-damping_low/53040000_ee_camera.jpg",
+    "assets/replay-OpenDoor-damping_high/53040000_base_camera.jpg",
+    "assets/replay-OpenDoor-damping_high/53040000_scene_camera.jpg",
+    "assets/replay-OpenDoor-damping_high/53040000_ee_camera.jpg",
+    "assets/replay-WipeWindow-friction_low/53110000_ee_camera.jpg",
+    "assets/replay-WipeWindow-friction_low/53110000_scene_camera.jpg",
+    "assets/replay-WipeWindow-friction_low/53110000_base_camera.jpg",
+    "assets/replay-WipeWindow-friction_high/53110000_ee_camera.jpg",
+    "assets/replay-WipeWindow-friction_high/53110000_scene_camera.jpg",
+    "assets/replay-WipeWindow-friction_high/53110000_base_camera.jpg",
+    "assets/scene-PressButton-detail/53060000_ee_camera.jpg",
+    "assets/scene-PressButton-detail/53060000_base_camera.jpg",
+    "assets/scene-PressButton-detail/53060003_detail.jpg",
+    "assets/scene-PressButton-detail/53060009_scene_camera.jpg",
+    "assets/scene-PressButton-detail/53060009_detail.jpg",
+    "assets/scene-PressButton-detail/53060003_ee_camera.jpg",
+    "assets/scene-PressButton-detail/53060003_scene_camera.jpg",
+    "assets/scene-PressButton-detail/53060009_ee_camera.jpg",
+    "assets/scene-PressButton-detail/53060000_detail.jpg",
+    "assets/scene-PressButton-detail/53060003_base_camera.jpg",
+    "assets/scene-PressButton-detail/53060009_base_camera.jpg",
+    "assets/scene-PressButton-detail/53060000_scene_camera.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000000_detail.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000009_candidate1.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000009_scene_camera.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000003_base_camera.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000000_candidate2.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000009_candidate0.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000000_base_camera.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000003_candidate2.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000000_candidate3.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000009_base_camera.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000003_detail.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000000_candidate1.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000003_candidate0.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000000_ee_camera.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000003_ee_camera.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000003_scene_camera.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000009_candidate2.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000009_candidate3.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000000_candidate0.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000009_detail.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000000_scene_camera.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000003_candidate3.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000009_ee_camera.jpg",
+    "assets/scene-CabinetPickPlace-interior/53000003_candidate1.jpg",
+    "assets/scene-OpenDoor-detail/53040000_base_camera.jpg",
+    "assets/scene-OpenDoor-detail/53040009_base_camera.jpg",
+    "assets/scene-OpenDoor-detail/53040003_scene_camera.jpg",
+    "assets/scene-OpenDoor-detail/53040009_ee_camera.jpg",
+    "assets/scene-OpenDoor-detail/53040009_scene_camera.jpg",
+    "assets/scene-OpenDoor-detail/53040000_detail.jpg",
+    "assets/scene-OpenDoor-detail/53040003_ee_camera.jpg",
+    "assets/scene-OpenDoor-detail/53040009_detail.jpg",
+    "assets/scene-OpenDoor-detail/53040003_detail.jpg",
+    "assets/scene-OpenDoor-detail/53040003_base_camera.jpg",
+    "assets/scene-OpenDoor-detail/53040000_scene_camera.jpg",
+    "assets/scene-OpenDoor-detail/53040000_ee_camera.jpg"
   ],
   "videos": [
     {
@@ -209,6 +296,56 @@
       "fully_decoded": true
     },
     {
+      "path": "assets/replay-PressButton-ground/scene_camera.mp4",
+      "sha256": "d4d436373011de44bf34953be64529ec5d03f521b64a6aaf0ecc56ffa711b571",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-PressButton-ground/base_camera.mp4",
+      "sha256": "581edf890b728651b06fd3eaa946e00b0b010fbf7e6245dc0ed881ebcd03e648",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-PressButton-wall/scene_camera.mp4",
+      "sha256": "7fa69433d3612c052aa1b2600f4a702b7ed8892bea24f0a8eeaec3244f0254ed",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-PressButton-wall/base_camera.mp4",
+      "sha256": "ec7df62141465f9e691acd5cd65c8857a635f939c05af579c531f025e265e3a8",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-PressButton-drag/scene_camera.mp4",
+      "sha256": "da31b7d9adac39be5a015cd09693f7f1539aa8f2ccba6b4a30addbf2c00b556a",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-PressButton-drag/base_camera.mp4",
+      "sha256": "b7942718deec6259d97830fe6e357c11cece7b13b6e08a5f40cfc4db1e9a862a",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-PressButton-aero/scene_camera.mp4",
+      "sha256": "ed339cb3559f625658766179a903021094612be25f35bd1dc8d5e259d39c9659",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-PressButton-aero/base_camera.mp4",
+      "sha256": "25078f108aa9bfcba9304c5527eee617fc77871c1483b0e0fd641b54328afde8",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-PressButton-wind/scene_camera.mp4",
+      "sha256": "774a439196c9c3466b4dc28faeb52d0d68a642787d7800ea9ee718c890fc1b84",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-PressButton-wind/base_camera.mp4",
+      "sha256": "ab7a6a0261c7b2739f290d6c434204c7b1632da4d6c0612a7a624455a27ff580",
+      "fully_decoded": true
+    },
+    {
       "path": "assets/replay-PressButton-full/scene_camera.mp4",
       "sha256": "79728b8159afc3c07549783bf60ed79066cf28c62ad4866680a22943db503909",
       "fully_decoded": true
@@ -216,6 +353,86 @@
     {
       "path": "assets/replay-PressButton-full/base_camera.mp4",
       "sha256": "925b4a447691c91ca785d95fdab5af6fc45cb0418687f45477f40e9d4d4d585f",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-TossBall-baseline/scene_camera.mp4",
+      "sha256": "d49202b9082abadd466a707c34544477ed2de95001705176c965d0d110025b3b",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-TossBall-baseline/base_camera.mp4",
+      "sha256": "dab16c4efa52b709091f2678b9070e92e27aebd777005d0542998a3e8efc0b84",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-TossBall-full/scene_camera.mp4",
+      "sha256": "c2f24341f46211277463d9ad5a9f71939f9223f8764f64a9dd050a3e84de4569",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-TossBall-full/base_camera.mp4",
+      "sha256": "6a52f74184c3ca1b948b0822ab633bc06d1ae431b66db8c075e13f4485f37a85",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-WipeWindow-baseline/scene_camera.mp4",
+      "sha256": "8bef3d69dd1f21aba6dcf9906a341114c30540a3a330781568d5ef237ae41814",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-WipeWindow-baseline/base_camera.mp4",
+      "sha256": "ee13dfb804baf5b83851e7867decc5d64e96c1ff212b4628d64f1e6118c4c7f9",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-WipeWindow-full/scene_camera.mp4",
+      "sha256": "d6f304c130019c364286a062bff8783796d5d331d3e44cf21e538df01cedc486",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-WipeWindow-full/base_camera.mp4",
+      "sha256": "ebdadf942ed7e8e3c511d8fb83278fb904c7bbf09a3de7b6028b780ba2c4ecbf",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-OpenDoor-damping_low/scene_camera.mp4",
+      "sha256": "c72597ec438ff7711e9669ed329c0748691f415e69433d57d28115c442715e44",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-OpenDoor-damping_low/base_camera.mp4",
+      "sha256": "8caffc504794d286fc384f3261cd4bbc689908a11decc576669b50e0f9b1d8e5",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-OpenDoor-damping_high/scene_camera.mp4",
+      "sha256": "54f650ca4bda34c93bf60162336a07c1e68ac937fe4f2ae00577dbc047f0b1a7",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-OpenDoor-damping_high/base_camera.mp4",
+      "sha256": "836a0a9e948f8cd37d189a3bc2ce5721a2328f904e86b911ee50a80c14deff2c",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-WipeWindow-friction_low/scene_camera.mp4",
+      "sha256": "a15692e29a47bf23c7423de1ce5d078e5fd87b637cb585fffadecd674e31abc8",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-WipeWindow-friction_low/base_camera.mp4",
+      "sha256": "434ef78bd18a0089423807b0efb20306bc0d9ddcf066e8a2245aaaf8bcfe2841",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-WipeWindow-friction_high/scene_camera.mp4",
+      "sha256": "942ef2e1e879265fa79e7a42cd97df6dbe3bf838ded41c25bf4efb61a327e484",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-WipeWindow-friction_high/base_camera.mp4",
+      "sha256": "91543df8b2f121ce9303209d786a2306f28b488c04e05e50fbb7f113041b2f2f",
       "fully_decoded": true
     }
   ],
@@ -245,16 +462,112 @@
       "sha256": "9f6566863957f54f324146e4fcb6e3d4ad714ed66976ff371b65213ea3d3224c"
     },
     {
+      "case": "replay-PressButton-ground",
+      "rows": 960,
+      "gzip_parsed": true,
+      "sha256": "8a7e4b834e4b5db6c86899a8a2da7f20a1dff2a67a04d1d74ae77ac628278bf7"
+    },
+    {
+      "case": "replay-PressButton-wall",
+      "rows": 960,
+      "gzip_parsed": true,
+      "sha256": "c208741bc74f378dbabee26a1db9c0d52293c5b07500f2420e9359275d164c15"
+    },
+    {
+      "case": "replay-PressButton-drag",
+      "rows": 960,
+      "gzip_parsed": true,
+      "sha256": "bdc98294f8a674aed82ef53700dcf2db8c7f922e7c261fc72020ca4aebcfa94a"
+    },
+    {
+      "case": "replay-PressButton-aero",
+      "rows": 960,
+      "gzip_parsed": true,
+      "sha256": "95f4d9d025a7eb37b4266747c8dceb113e99113caaddc7118f047522e21f62d6"
+    },
+    {
+      "case": "replay-PressButton-wind",
+      "rows": 960,
+      "gzip_parsed": true,
+      "sha256": "b10183906643d68beb39a25f89bcdf57b50976ef20984bcfdb77ee59bc124083"
+    },
+    {
       "case": "replay-PressButton-full",
       "rows": 960,
       "gzip_parsed": true,
       "sha256": "e5f0b3d57f9fe2967e3fa579c829fca52ab850aa16118d225aef663c058d8c1b"
+    },
+    {
+      "case": "replay-TossBall-baseline",
+      "rows": 664,
+      "gzip_parsed": true,
+      "sha256": "423dc1634e7e482cf36c6726d4f4df0d80d098f4fa22120e0e1d007d981b527e"
+    },
+    {
+      "case": "replay-TossBall-full",
+      "rows": 664,
+      "gzip_parsed": true,
+      "sha256": "9b1b51a545f19bc01ce1319b0fb03deec2adb724cdde679013d0357f86a74eec"
+    },
+    {
+      "case": "replay-WipeWindow-baseline",
+      "rows": 960,
+      "gzip_parsed": true,
+      "sha256": "18f10ab1a636bbca87ce19217e60f346dace3abbb319ac07cb6fa6b71118f28e"
+    },
+    {
+      "case": "replay-WipeWindow-full",
+      "rows": 960,
+      "gzip_parsed": true,
+      "sha256": "4feda73b843adbe54064288386e021608f3b804b1063fb32c6ab0dc0698b7534"
+    },
+    {
+      "case": "replay-OpenDoor-damping_low",
+      "rows": 396,
+      "gzip_parsed": true,
+      "sha256": "304d930961efe1cb02bd069bcf5563442e4fbdf62ccf57f115367b6b77a8eb29"
+    },
+    {
+      "case": "replay-OpenDoor-damping_high",
+      "rows": 396,
+      "gzip_parsed": true,
+      "sha256": "2ef41af26f25d4c37b5b9f9da3ddf9d1b80f6826c4d007c7df4a6981e7d36a8b"
+    },
+    {
+      "case": "replay-WipeWindow-friction_low",
+      "rows": 960,
+      "gzip_parsed": true,
+      "sha256": "6f8a1d502c511a4ab78a3b8741d198152599221bb912fdffe43dac6bf4ee9d96"
+    },
+    {
+      "case": "replay-WipeWindow-friction_high",
+      "rows": 960,
+      "gzip_parsed": true,
+      "sha256": "051b8af3be89ca66c544727becd36787bad3b9fba1cf1286d3f0ec35339a51f2"
     }
   ],
   "pair_checks": [
     {
       "task": "PressButton",
-      "conditions": 5,
+      "conditions": 10,
+      "identical_initial_signature": true,
+      "identical_commands": true
+    },
+    {
+      "task": "TossBall",
+      "conditions": 2,
+      "identical_initial_signature": true,
+      "identical_commands": true
+    },
+    {
+      "task": "WipeWindow",
+      "conditions": 4,
+      "identical_initial_signature": true,
+      "identical_commands": true
+    },
+    {
+      "task": "OpenDoor",
+      "conditions": 2,
       "identical_initial_signature": true,
       "identical_commands": true
     }
