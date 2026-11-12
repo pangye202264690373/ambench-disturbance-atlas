@@ -1312,6 +1312,16 @@
           "ee_camera": "assets/scale-PegInHole-0.75/53050000_ee_camera.jpg",
           "detail": "assets/scale-PegInHole-0.75/53050000_detail.jpg"
         }
+      },
+      {
+        "scale": 1.5,
+        "seed": 53050000,
+        "images": {
+          "base_camera": "assets/scale-PegInHole-1.5/53050000_base_camera.jpg",
+          "scene_camera": "assets/scale-PegInHole-1.5/53050000_scene_camera.jpg",
+          "ee_camera": "assets/scale-PegInHole-1.5/53050000_ee_camera.jpg",
+          "detail": "assets/scale-PegInHole-1.5/53050000_detail.jpg"
+        }
       }
     ]
   },
@@ -1335,6 +1345,48 @@
         "ee_error_p95_mm": 9.075552049508126,
         "tilt_p95_deg": 0.930594352118736,
         "motor_max_n": 108.26775360107422
+      }
+    },
+    "PressButton-noise": {
+      "task": "PressButton",
+      "seed": 53060000,
+      "images": {
+        "53060000": {
+          "ee_camera": "assets/replay-PressButton-noise/53060000_ee_camera.jpg",
+          "base_camera": "assets/replay-PressButton-noise/53060000_base_camera.jpg",
+          "scene_camera": "assets/replay-PressButton-noise/53060000_scene_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-PressButton-noise/scene_camera.mp4",
+        "base_camera": "assets/replay-PressButton-noise/base_camera.mp4"
+      },
+      "series": "data/replay-PressButton-noise.json",
+      "summary": {
+        "ee_error_p95_mm": 9.135225618455415,
+        "tilt_p95_deg": 0.9292389463060566,
+        "motor_max_n": 126.59900665283203
+      }
+    },
+    "PressButton-saturation": {
+      "task": "PressButton",
+      "seed": 53060000,
+      "images": {
+        "53060000": {
+          "ee_camera": "assets/replay-PressButton-saturation/53060000_ee_camera.jpg",
+          "base_camera": "assets/replay-PressButton-saturation/53060000_base_camera.jpg",
+          "scene_camera": "assets/replay-PressButton-saturation/53060000_scene_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-PressButton-saturation/scene_camera.mp4",
+        "base_camera": "assets/replay-PressButton-saturation/base_camera.mp4"
+      },
+      "series": "data/replay-PressButton-saturation.json",
+      "summary": {
+        "ee_error_p95_mm": 17.670641219056836,
+        "tilt_p95_deg": 0.9463111507882455,
+        "motor_max_n": 23.0
       }
     },
     "PressButton-full": {
