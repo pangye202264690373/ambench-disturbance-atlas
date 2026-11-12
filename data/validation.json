@@ -160,6 +160,9 @@
     "assets/replay-PressButton-saturation/53060000_ee_camera.jpg",
     "assets/replay-PressButton-saturation/53060000_base_camera.jpg",
     "assets/replay-PressButton-saturation/53060000_scene_camera.jpg",
+    "assets/replay-PressButton-dynamics/53060000_ee_camera.jpg",
+    "assets/replay-PressButton-dynamics/53060000_base_camera.jpg",
+    "assets/replay-PressButton-dynamics/53060000_scene_camera.jpg",
     "assets/replay-PressButton-full/53060000_ee_camera.jpg",
     "assets/replay-PressButton-full/53060000_base_camera.jpg",
     "assets/replay-PressButton-full/53060000_scene_camera.jpg"
@@ -196,6 +199,16 @@
       "fully_decoded": true
     },
     {
+      "path": "assets/replay-PressButton-dynamics/scene_camera.mp4",
+      "sha256": "dedd717d8470bd8f52d7019420ac0e9a2cdc33f0d06a4b70f42c7776161eb05d",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-PressButton-dynamics/base_camera.mp4",
+      "sha256": "0d65da8196e0ad87649f350ad4bf89b728eb3f3fd46f22a3a74996ad29cf21ec",
+      "fully_decoded": true
+    },
+    {
       "path": "assets/replay-PressButton-full/scene_camera.mp4",
       "sha256": "79728b8159afc3c07549783bf60ed79066cf28c62ad4866680a22943db503909",
       "fully_decoded": true
@@ -226,6 +239,12 @@
       "sha256": "86447e2a93e951bb9ab9595f381ebbc97ccb0d33890396f04371f5c15755b621"
     },
     {
+      "case": "replay-PressButton-dynamics",
+      "rows": 960,
+      "gzip_parsed": true,
+      "sha256": "9f6566863957f54f324146e4fcb6e3d4ad714ed66976ff371b65213ea3d3224c"
+    },
+    {
       "case": "replay-PressButton-full",
       "rows": 960,
       "gzip_parsed": true,
@@ -235,7 +254,7 @@
   "pair_checks": [
     {
       "task": "PressButton",
-      "conditions": 4,
+      "conditions": 5,
       "identical_initial_signature": true,
       "identical_commands": true
     }

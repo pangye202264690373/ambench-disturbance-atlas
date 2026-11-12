@@ -1389,6 +1389,27 @@
         "motor_max_n": 23.0
       }
     },
+    "PressButton-dynamics": {
+      "task": "PressButton",
+      "seed": 53060000,
+      "images": {
+        "53060000": {
+          "ee_camera": "assets/replay-PressButton-dynamics/53060000_ee_camera.jpg",
+          "base_camera": "assets/replay-PressButton-dynamics/53060000_base_camera.jpg",
+          "scene_camera": "assets/replay-PressButton-dynamics/53060000_scene_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-PressButton-dynamics/scene_camera.mp4",
+        "base_camera": "assets/replay-PressButton-dynamics/base_camera.mp4"
+      },
+      "series": "data/replay-PressButton-dynamics.json",
+      "summary": {
+        "ee_error_p95_mm": 23.550162889037818,
+        "tilt_p95_deg": 0.9168591619316493,
+        "motor_max_n": 22.83635902404785
+      }
+    },
     "PressButton-full": {
       "task": "PressButton",
       "seed": 53060000,
