@@ -1,10 +1,10 @@
 {
   "phase": "rendering",
-  "gpu_hours": 1.0516666666666667,
+  "gpu_hours": 1.3383333333333334,
   "cap_gpu_hours": 10,
-  "image_count": 129,
-  "scene_count": 11,
+  "image_count": 153,
+  "scene_count": 12,
   "replay_count": 2,
   "gpu_released": false,
-  "checked_at": "2026-11-12T07:36:14.754891+00:00"
+  "checked_at": "2026-11-12T07:53:26.958102+00:00"
 }

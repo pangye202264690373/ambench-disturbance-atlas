@@ -12,7 +12,7 @@
   "initial_state_precision": "Numeric initial robot and object states rounded to 1e-6 for signature. Not a substitute for geometry/material audit.",
   "budget": {
     "cap_gpu_hours": 10,
-    "actual_gpu_hours": 1.0516666666666667
+    "actual_gpu_hours": 1.3383333333333334
   },
   "training": false,
   "scored_benchmark": false

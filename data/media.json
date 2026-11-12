@@ -35,7 +35,8 @@
               1.0799999237060547
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         },
         {
           "seed": 53000003,
@@ -51,7 +52,8 @@
               1.0799999237060547
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         },
         {
           "seed": 53000009,
@@ -67,7 +69,8 @@
               1.0799999237060547
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         }
       ]
     },
@@ -129,7 +132,8 @@
               0.800000011920929
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         },
         {
           "seed": 53010003,
@@ -165,7 +169,8 @@
               0.800000011920929
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         },
         {
           "seed": 53010009,
@@ -201,7 +206,8 @@
               0.800000011920929
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         }
       ]
     },
@@ -283,7 +289,8 @@
               0.6499999761581421
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         },
         {
           "seed": 53020003,
@@ -339,7 +346,8 @@
               0.6499999761581421
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         },
         {
           "seed": 53020009,
@@ -395,7 +403,8 @@
               0.6499999761581421
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         }
       ]
     },
@@ -436,7 +445,8 @@
             1.7699999809265137,
             0.0,
             7.0
-          ]
+          ],
+          "realized_parameters": {}
         },
         {
           "seed": 53030003,
@@ -451,7 +461,8 @@
             1.7699999809265137,
             0.0,
             7.0
-          ]
+          ],
+          "realized_parameters": {}
         },
         {
           "seed": 53030009,
@@ -466,7 +477,8 @@
             1.7699999809265137,
             0.0,
             7.0
-          ]
+          ],
+          "realized_parameters": {}
         }
       ]
     },
@@ -500,7 +512,8 @@
               0.0
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         },
         {
           "seed": 53040003,
@@ -511,7 +524,8 @@
               0.0
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         },
         {
           "seed": 53040009,
@@ -522,7 +536,8 @@
               0.0
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         }
       ]
     },
@@ -573,7 +588,8 @@
             2.0194497108459473,
             -0.27024176716804504,
             1.0448514223098755
-          ]
+          ],
+          "realized_parameters": {}
         },
         {
           "seed": 53050003,
@@ -598,7 +614,8 @@
             1.954161286354065,
             0.22662560641765594,
             1.165514349937439
-          ]
+          ],
+          "realized_parameters": {}
         },
         {
           "seed": 53050009,
@@ -623,7 +640,8 @@
             2.057910442352295,
             0.23395897448062897,
             1.0198560953140259
-          ]
+          ],
+          "realized_parameters": {}
         }
       ]
     },
@@ -666,7 +684,8 @@
             1.8104411363601685,
             0.006316244602203369,
             1.2351393699645996
-          ]
+          ],
+          "realized_parameters": {}
         },
         {
           "seed": 53060003,
@@ -686,7 +705,8 @@
             2.047321319580078,
             0.15402589738368988,
             0.9920665621757507
-          ]
+          ],
+          "realized_parameters": {}
         },
         {
           "seed": 53060009,
@@ -706,7 +726,8 @@
             2.0413718223571777,
             -0.013743534684181213,
             0.8923404812812805
-          ]
+          ],
+          "realized_parameters": {}
         }
       ]
     },
@@ -748,7 +769,8 @@
               1.2300790548324585
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         },
         {
           "seed": 53070003,
@@ -764,7 +786,8 @@
               0.9360707998275757
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         },
         {
           "seed": 53070009,
@@ -780,7 +803,8 @@
               0.9748905897140503
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         }
       ]
     },
@@ -822,7 +846,8 @@
               1.2051243782043457
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         },
         {
           "seed": 53080003,
@@ -838,7 +863,8 @@
               0.7720837593078613
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         },
         {
           "seed": 53080009,
@@ -854,7 +880,8 @@
               0.9357539415359497
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         }
       ]
     },
@@ -900,7 +927,8 @@
             2.0365660190582275,
             0.13540862500667572,
             1.0317422151565552
-          ]
+          ],
+          "realized_parameters": {}
         },
         {
           "seed": 53090003,
@@ -920,7 +948,8 @@
             1.919778823852539,
             0.0911078080534935,
             0.7406045794487
-          ]
+          ],
+          "realized_parameters": {}
         },
         {
           "seed": 53090009,
@@ -940,7 +969,8 @@
             1.7284514904022217,
             0.19438423216342926,
             0.9840322732925415
-          ]
+          ],
+          "realized_parameters": {}
         }
       ]
     },
@@ -982,7 +1012,8 @@
               1.1237499713897705
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         },
         {
           "seed": 53100003,
@@ -998,7 +1029,8 @@
               1.1237499713897705
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
         },
         {
           "seed": 53100009,
@@ -1014,12 +1046,275 @@
               1.1237499713897705
             ]
           },
-          "goal": null
+          "goal": null,
+          "realized_parameters": {}
+        }
+      ]
+    },
+    "WipeWindow": {
+      "task": "WipeWindow",
+      "seed": 53110000,
+      "images": {
+        "53110009": {
+          "ee_camera": "assets/scene-WipeWindow/53110009_ee_camera.jpg",
+          "base_camera": "assets/scene-WipeWindow/53110009_base_camera.jpg",
+          "scene_camera": "assets/scene-WipeWindow/53110009_scene_camera.jpg",
+          "detail": "assets/scene-WipeWindow/53110009_detail.jpg"
+        },
+        "53110000": {
+          "ee_camera": "assets/scene-WipeWindow/53110000_ee_camera.jpg",
+          "scene_camera": "assets/scene-WipeWindow/53110000_scene_camera.jpg",
+          "base_camera": "assets/scene-WipeWindow/53110000_base_camera.jpg",
+          "detail": "assets/scene-WipeWindow/53110000_detail.jpg"
+        },
+        "53110003": {
+          "base_camera": "assets/scene-WipeWindow/53110003_base_camera.jpg",
+          "ee_camera": "assets/scene-WipeWindow/53110003_ee_camera.jpg",
+          "detail": "assets/scene-WipeWindow/53110003_detail.jpg",
+          "scene_camera": "assets/scene-WipeWindow/53110003_scene_camera.jpg"
+        }
+      },
+      "realizations": [
+        {
+          "seed": 53110000,
+          "objects": {
+            "window_object": [
+              2.114572048187256,
+              0.08947689831256866,
+              1.0
+            ],
+            "dot_0_object": [
+              2.1295721530914307,
+              0.10699694603681564,
+              0.9977077841758728
+            ],
+            "dot_1_object": [
+              2.1295721530914307,
+              0.1335235983133316,
+              1.0277692079544067
+            ],
+            "dot_2_object": [
+              2.1295721530914307,
+              0.0047666579484939575,
+              1.0033081769943237
+            ],
+            "dot_3_object": [
+              2.1295721530914307,
+              0.1186533272266388,
+              1.065442442893982
+            ],
+            "sponge_object": [
+              0.4069998264312744,
+              1.9467187861721413e-09,
+              1.1237499713897705
+            ]
+          },
+          "goal": null,
+          "realized_parameters": {
+            "window_material_static_dynamic_restitution": [
+              [
+                [
+                  0.35661762952804565,
+                  0.236322283744812,
+                  0.0
+                ],
+                [
+                  0.3084087669849396,
+                  0.11643484234809875,
+                  0.0
+                ],
+                [
+                  0.2651349604129791,
+                  0.19920173287391663,
+                  0.0
+                ],
+                [
+                  0.3574729561805725,
+                  0.14563456177711487,
+                  0.0
+                ],
+                [
+                  0.36990994215011597,
+                  0.2821451425552368,
+                  0.0
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "seed": 53110003,
+          "objects": {
+            "window_object": [
+              1.9028148651123047,
+              0.03516101837158203,
+              1.0
+            ],
+            "dot_0_object": [
+              1.91781485080719,
+              -0.04825975000858307,
+              0.9823213219642639
+            ],
+            "dot_1_object": [
+              1.91781485080719,
+              0.03138504922389984,
+              0.9227560758590698
+            ],
+            "dot_2_object": [
+              1.91781485080719,
+              0.08406214416027069,
+              1.0114473104476929
+            ],
+            "dot_3_object": [
+              1.91781485080719,
+              0.010248906910419464,
+              0.998581051826477
+            ],
+            "sponge_object": [
+              0.4069998264312744,
+              1.9467187861721413e-09,
+              1.1237499713897705
+            ]
+          },
+          "goal": null,
+          "realized_parameters": {
+            "window_material_static_dynamic_restitution": [
+              [
+                [
+                  0.3023183047771454,
+                  0.12867803871631622,
+                  0.0
+                ],
+                [
+                  0.27047181129455566,
+                  0.16028904914855957,
+                  0.0
+                ],
+                [
+                  0.32527852058410645,
+                  0.15038833022117615,
+                  0.0
+                ],
+                [
+                  0.2966812252998352,
+                  0.2966812252998352,
+                  0.0
+                ],
+                [
+                  0.39654698967933655,
+                  0.17605918645858765,
+                  0.0
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "seed": 53110009,
+          "objects": {
+            "window_object": [
+              2.026937961578369,
+              -0.05756637454032898,
+              1.0
+            ],
+            "dot_0_object": [
+              2.041938066482544,
+              -0.07930996268987656,
+              1.0215376615524292
+            ],
+            "dot_1_object": [
+              2.041938066482544,
+              0.007049277424812317,
+              0.9868113398551941
+            ],
+            "dot_2_object": [
+              2.041938066482544,
+              -0.09745119512081146,
+              1.016241192817688
+            ],
+            "dot_3_object": [
+              2.041938066482544,
+              -0.015087798237800598,
+              1.0097700357437134
+            ],
+            "sponge_object": [
+              0.4069998264312744,
+              1.9467187861721413e-09,
+              1.1237499713897705
+            ]
+          },
+          "goal": null,
+          "realized_parameters": {
+            "window_material_static_dynamic_restitution": [
+              [
+                [
+                  0.38340574502944946,
+                  0.29893729090690613,
+                  0.0
+                ],
+                [
+                  0.2534341812133789,
+                  0.17109529674053192,
+                  0.0
+                ],
+                [
+                  0.39462602138519287,
+                  0.29560473561286926,
+                  0.0
+                ],
+                [
+                  0.2966812252998352,
+                  0.2966812252998352,
+                  0.0
+                ],
+                [
+                  0.2651349604129791,
+                  0.19920173287391663,
+                  0.0
+                ]
+              ]
+            ]
+          }
         }
       ]
     }
   },
-  "scales": {},
+  "scales": {
+    "PressButton": [
+      {
+        "scale": 0.5,
+        "seed": 53060000,
+        "images": {
+          "ee_camera": "assets/scale-PressButton-0.5/53060000_ee_camera.jpg",
+          "base_camera": "assets/scale-PressButton-0.5/53060000_base_camera.jpg",
+          "detail": "assets/scale-PressButton-0.5/53060000_detail.jpg",
+          "scene_camera": "assets/scale-PressButton-0.5/53060000_scene_camera.jpg"
+        }
+      },
+      {
+        "scale": 1.0,
+        "seed": 53060000,
+        "images": {
+          "ee_camera": "assets/scale-PressButton-1.0/53060000_ee_camera.jpg",
+          "base_camera": "assets/scale-PressButton-1.0/53060000_base_camera.jpg",
+          "detail": "assets/scale-PressButton-1.0/53060000_detail.jpg",
+          "scene_camera": "assets/scale-PressButton-1.0/53060000_scene_camera.jpg"
+        }
+      }
+    ],
+    "PegInHole": [
+      {
+        "scale": 0.75,
+        "seed": 53050000,
+        "images": {
+          "base_camera": "assets/scale-PegInHole-0.75/53050000_base_camera.jpg",
+          "scene_camera": "assets/scale-PegInHole-0.75/53050000_scene_camera.jpg",
+          "ee_camera": "assets/scale-PegInHole-0.75/53050000_ee_camera.jpg",
+          "detail": "assets/scale-PegInHole-0.75/53050000_detail.jpg"
+        }
+      }
+    ]
+  },
   "replays": {
     "PressButton-baseline": {
       "task": "PressButton",
