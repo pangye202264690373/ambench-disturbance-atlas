@@ -1,0 +1,602 @@
+{
+  "scenes": {
+    "CabinetPickPlace": {
+      "task": "CabinetPickPlace",
+      "seed": 53000000,
+      "images": {
+        "53000009": {
+          "scene_camera": "assets/scene-CabinetPickPlace/53000009_scene_camera.jpg",
+          "base_camera": "assets/scene-CabinetPickPlace/53000009_base_camera.jpg",
+          "ee_camera": "assets/scene-CabinetPickPlace/53000009_ee_camera.jpg"
+        },
+        "53000003": {
+          "base_camera": "assets/scene-CabinetPickPlace/53000003_base_camera.jpg",
+          "ee_camera": "assets/scene-CabinetPickPlace/53000003_ee_camera.jpg",
+          "scene_camera": "assets/scene-CabinetPickPlace/53000003_scene_camera.jpg"
+        },
+        "53000000": {
+          "base_camera": "assets/scene-CabinetPickPlace/53000000_base_camera.jpg",
+          "ee_camera": "assets/scene-CabinetPickPlace/53000000_ee_camera.jpg",
+          "scene_camera": "assets/scene-CabinetPickPlace/53000000_scene_camera.jpg"
+        }
+      },
+      "realizations": [
+        {
+          "seed": 53000000,
+          "objects": {
+            "can": [
+              2.2756290435791016,
+              0.27116402983665466,
+              1.1699999570846558
+            ],
+            "pulling_door": [
+              2.4000000953674316,
+              -1.4901161193847656e-08,
+              1.0799999237060547
+            ]
+          },
+          "goal": null
+        },
+        {
+          "seed": 53000003,
+          "objects": {
+            "can": [
+              2.279045343399048,
+              0.3098125755786896,
+              1.1699999570846558
+            ],
+            "pulling_door": [
+              2.4000000953674316,
+              -1.4901161193847656e-08,
+              1.0799999237060547
+            ]
+          },
+          "goal": null
+        },
+        {
+          "seed": 53000009,
+          "objects": {
+            "can": [
+              2.2569994926452637,
+              0.2624797821044922,
+              1.1699999570846558
+            ],
+            "pulling_door": [
+              2.4000000953674316,
+              -1.4901161193847656e-08,
+              1.0799999237060547
+            ]
+          },
+          "goal": null
+        }
+      ]
+    },
+    "FrameAssembly": {
+      "task": "FrameAssembly",
+      "seed": 53010000,
+      "images": {
+        "53010009": {
+          "ee_camera": "assets/scene-FrameAssembly/53010009_ee_camera.jpg",
+          "detail": "assets/scene-FrameAssembly/53010009_detail.jpg",
+          "scene_camera": "assets/scene-FrameAssembly/53010009_scene_camera.jpg",
+          "base_camera": "assets/scene-FrameAssembly/53010009_base_camera.jpg"
+        },
+        "53010003": {
+          "detail": "assets/scene-FrameAssembly/53010003_detail.jpg",
+          "scene_camera": "assets/scene-FrameAssembly/53010003_scene_camera.jpg",
+          "base_camera": "assets/scene-FrameAssembly/53010003_base_camera.jpg",
+          "ee_camera": "assets/scene-FrameAssembly/53010003_ee_camera.jpg"
+        },
+        "53010000": {
+          "detail": "assets/scene-FrameAssembly/53010000_detail.jpg",
+          "ee_camera": "assets/scene-FrameAssembly/53010000_ee_camera.jpg",
+          "scene_camera": "assets/scene-FrameAssembly/53010000_scene_camera.jpg",
+          "base_camera": "assets/scene-FrameAssembly/53010000_base_camera.jpg"
+        }
+      },
+      "realizations": [
+        {
+          "seed": 53010000,
+          "objects": {
+            "wall": [
+              1.9685243368148804,
+              -0.1885279417037964,
+              1.0
+            ],
+            "frame_object": [
+              1.7612649202346802,
+              -0.10957472771406174,
+              0.2499999850988388
+            ],
+            "peg_1": [
+              1.8435243368148804,
+              -0.38852792978286743,
+              1.2000000476837158
+            ],
+            "peg_2": [
+              1.8435243368148804,
+              0.011472061276435852,
+              1.2000000476837158
+            ],
+            "peg_3": [
+              1.8435243368148804,
+              -0.38852792978286743,
+              0.800000011920929
+            ],
+            "peg_4": [
+              1.8435243368148804,
+              0.011472061276435852,
+              0.800000011920929
+            ]
+          },
+          "goal": null
+        },
+        {
+          "seed": 53010003,
+          "objects": {
+            "wall": [
+              1.921201467514038,
+              -0.18511232733726501,
+              1.0
+            ],
+            "frame_object": [
+              1.752854824066162,
+              -0.05388164520263672,
+              0.2499999850988388
+            ],
+            "peg_1": [
+              1.796201467514038,
+              -0.38511234521865845,
+              1.2000000476837158
+            ],
+            "peg_2": [
+              1.796201467514038,
+              0.014887675642967224,
+              1.2000000476837158
+            ],
+            "peg_3": [
+              1.796201467514038,
+              -0.38511234521865845,
+              0.800000011920929
+            ],
+            "peg_4": [
+              1.796201467514038,
+              0.014887675642967224,
+              0.800000011920929
+            ]
+          },
+          "goal": null
+        },
+        {
+          "seed": 53010009,
+          "objects": {
+            "wall": [
+              2.0216448307037354,
+              0.06189422309398651,
+              1.0
+            ],
+            "frame_object": [
+              1.6924128532409668,
+              0.06452997773885727,
+              0.2499999850988388
+            ],
+            "peg_1": [
+              1.8966448307037354,
+              -0.13810577988624573,
+              1.2000000476837158
+            ],
+            "peg_2": [
+              1.8966448307037354,
+              0.26189422607421875,
+              1.2000000476837158
+            ],
+            "peg_3": [
+              1.8966448307037354,
+              -0.13810577988624573,
+              0.800000011920929
+            ],
+            "peg_4": [
+              1.8966448307037354,
+              0.26189422607421875,
+              0.800000011920929
+            ]
+          },
+          "goal": null
+        }
+      ]
+    },
+    "LemonHarvesting": {
+      "task": "LemonHarvesting",
+      "seed": 53020000,
+      "images": {
+        "53020009": {
+          "scene_camera": "assets/scene-LemonHarvesting/53020009_scene_camera.jpg",
+          "detail": "assets/scene-LemonHarvesting/53020009_detail.jpg",
+          "ee_camera": "assets/scene-LemonHarvesting/53020009_ee_camera.jpg",
+          "base_camera": "assets/scene-LemonHarvesting/53020009_base_camera.jpg"
+        },
+        "53020000": {
+          "scene_camera": "assets/scene-LemonHarvesting/53020000_scene_camera.jpg",
+          "base_camera": "assets/scene-LemonHarvesting/53020000_base_camera.jpg",
+          "detail": "assets/scene-LemonHarvesting/53020000_detail.jpg",
+          "ee_camera": "assets/scene-LemonHarvesting/53020000_ee_camera.jpg"
+        },
+        "53020003": {
+          "detail": "assets/scene-LemonHarvesting/53020003_detail.jpg",
+          "base_camera": "assets/scene-LemonHarvesting/53020003_base_camera.jpg",
+          "ee_camera": "assets/scene-LemonHarvesting/53020003_ee_camera.jpg",
+          "scene_camera": "assets/scene-LemonHarvesting/53020003_scene_camera.jpg"
+        }
+      },
+      "realizations": [
+        {
+          "seed": 53020000,
+          "objects": {
+            "wall": [
+              2.0,
+              0.0,
+              1.0
+            ],
+            "lemon_object": [
+              1.9199999570846558,
+              0.1137571930885315,
+              1.2502427101135254
+            ],
+            "lime_object_01": [
+              1.9199999570846558,
+              -0.06674513220787048,
+              1.1554220914840698
+            ],
+            "lime_object_02": [
+              1.9199999570846558,
+              -0.29389679431915283,
+              1.1251087188720703
+            ],
+            "lime_object_03": [
+              1.9199999570846558,
+              0.26488661766052246,
+              1.1740115880966187
+            ],
+            "lime_object_04": [
+              1.9199999570846558,
+              0.3027733564376831,
+              1.48265540599823
+            ],
+            "lime_object_05": [
+              1.9199999570846558,
+              -0.48265355825424194,
+              1.396484375
+            ],
+            "lime_object_06": [
+              1.9199999570846558,
+              -0.1884429156780243,
+              1.4906061887741089
+            ],
+            "table": [
+              1.7200000286102295,
+              0.5,
+              -5.960464477539063e-08
+            ],
+            "container": [
+              1.7200000286102295,
+              0.5,
+              0.6499999761581421
+            ]
+          },
+          "goal": null
+        },
+        {
+          "seed": 53020003,
+          "objects": {
+            "wall": [
+              2.0,
+              0.0,
+              1.0
+            ],
+            "lemon_object": [
+              1.9199999570846558,
+              -0.08324733376502991,
+              1.4169420003890991
+            ],
+            "lime_object_01": [
+              1.9199999570846558,
+              0.1440930962562561,
+              1.1491426229476929
+            ],
+            "lime_object_02": [
+              1.9199999570846558,
+              0.1805868148803711,
+              1.3674808740615845
+            ],
+            "lime_object_03": [
+              1.9199999570846558,
+              0.39605820178985596,
+              1.4590009450912476
+            ],
+            "lime_object_04": [
+              1.9199999570846558,
+              0.47808337211608887,
+              1.3216230869293213
+            ],
+            "lime_object_05": [
+              1.9199999570846558,
+              -0.3454628586769104,
+              1.171701431274414
+            ],
+            "lime_object_06": [
+              1.9199999570846558,
+              -0.030254006385803223,
+              1.199033260345459
+            ],
+            "table": [
+              1.7200000286102295,
+              0.5,
+              -5.960464477539063e-08
+            ],
+            "container": [
+              1.7200000286102295,
+              0.5,
+              0.6499999761581421
+            ]
+          },
+          "goal": null
+        },
+        {
+          "seed": 53020009,
+          "objects": {
+            "wall": [
+              2.0,
+              0.0,
+              1.0
+            ],
+            "lemon_object": [
+              1.9199999570846558,
+              0.30111145973205566,
+              1.2876415252685547
+            ],
+            "lime_object_01": [
+              1.9199999570846558,
+              -0.456786185503006,
+              1.4519134759902954
+            ],
+            "lime_object_02": [
+              1.9199999570846558,
+              -0.08685091137886047,
+              1.4263476133346558
+            ],
+            "lime_object_03": [
+              1.9199999570846558,
+              0.4857562780380249,
+              1.3820292949676514
+            ],
+            "lime_object_04": [
+              1.9199999570846558,
+              0.2719038724899292,
+              1.4843093156814575
+            ],
+            "lime_object_05": [
+              1.9199999570846558,
+              -0.4993378818035126,
+              1.2442142963409424
+            ],
+            "lime_object_06": [
+              1.9199999570846558,
+              0.1506178379058838,
+              1.2551859617233276
+            ],
+            "table": [
+              1.7200000286102295,
+              0.5,
+              -5.960464477539063e-08
+            ],
+            "container": [
+              1.7200000286102295,
+              0.5,
+              0.6499999761581421
+            ]
+          },
+          "goal": null
+        }
+      ]
+    },
+    "NDT": {
+      "task": "NDT",
+      "seed": 53030000,
+      "images": {
+        "53030009": {
+          "scene_camera": "assets/scene-NDT/53030009_scene_camera.jpg",
+          "detail": "assets/scene-NDT/53030009_detail.jpg",
+          "ee_camera": "assets/scene-NDT/53030009_ee_camera.jpg",
+          "base_camera": "assets/scene-NDT/53030009_base_camera.jpg"
+        },
+        "53030000": {
+          "detail": "assets/scene-NDT/53030000_detail.jpg",
+          "ee_camera": "assets/scene-NDT/53030000_ee_camera.jpg",
+          "base_camera": "assets/scene-NDT/53030000_base_camera.jpg",
+          "scene_camera": "assets/scene-NDT/53030000_scene_camera.jpg"
+        },
+        "53030003": {
+          "scene_camera": "assets/scene-NDT/53030003_scene_camera.jpg",
+          "ee_camera": "assets/scene-NDT/53030003_ee_camera.jpg",
+          "base_camera": "assets/scene-NDT/53030003_base_camera.jpg",
+          "detail": "assets/scene-NDT/53030003_detail.jpg"
+        }
+      },
+      "realizations": [
+        {
+          "seed": 53030000,
+          "objects": {
+            "wall": [
+              2.0,
+              -10.0,
+              1.0
+            ]
+          },
+          "goal": [
+            1.7699999809265137,
+            0.0,
+            7.0
+          ]
+        },
+        {
+          "seed": 53030003,
+          "objects": {
+            "wall": [
+              2.0,
+              -10.0,
+              1.0
+            ]
+          },
+          "goal": [
+            1.7699999809265137,
+            0.0,
+            7.0
+          ]
+        },
+        {
+          "seed": 53030009,
+          "objects": {
+            "wall": [
+              2.0,
+              -10.0,
+              1.0
+            ]
+          },
+          "goal": [
+            1.7699999809265137,
+            0.0,
+            7.0
+          ]
+        }
+      ]
+    },
+    "PressButton": {
+      "task": "PressButton",
+      "seed": 53060000,
+      "images": {
+        "53060000": {
+          "ee_camera": "assets/scene-PressButton/53060000_ee_camera.jpg",
+          "base_camera": "assets/scene-PressButton/53060000_base_camera.jpg",
+          "scene_camera": "assets/scene-PressButton/53060000_scene_camera.jpg"
+        },
+        "53060009": {
+          "scene_camera": "assets/scene-PressButton/53060009_scene_camera.jpg",
+          "ee_camera": "assets/scene-PressButton/53060009_ee_camera.jpg",
+          "base_camera": "assets/scene-PressButton/53060009_base_camera.jpg"
+        },
+        "53060003": {
+          "ee_camera": "assets/scene-PressButton/53060003_ee_camera.jpg",
+          "scene_camera": "assets/scene-PressButton/53060003_scene_camera.jpg",
+          "base_camera": "assets/scene-PressButton/53060003_base_camera.jpg"
+        }
+      },
+      "realizations": [
+        {
+          "seed": 53060000,
+          "objects": {
+            "wall": [
+              1.8384665250778198,
+              -0.133291095495224,
+              1.0
+            ],
+            "button": [
+              1.820346713066101,
+              0.006316244602203369,
+              1.233768343925476
+            ]
+          },
+          "goal": [
+            1.8104411363601685,
+            0.006316244602203369,
+            1.2351393699645996
+          ]
+        },
+        {
+          "seed": 53060003,
+          "objects": {
+            "wall": [
+              2.1082136631011963,
+              0.018631771206855774,
+              1.0
+            ],
+            "button": [
+              2.0572853088378906,
+              0.15402589738368988,
+              0.9912183284759521
+            ]
+          },
+          "goal": [
+            2.047321319580078,
+            0.15402589738368988,
+            0.9920665621757507
+          ]
+        },
+        {
+          "seed": 53060009,
+          "objects": {
+            "wall": [
+              2.091491937637329,
+              -0.06013740599155426,
+              1.0
+            ],
+            "button": [
+              2.051327705383301,
+              -0.013743534684181213,
+              0.8932787179946899
+            ]
+          },
+          "goal": [
+            2.0413718223571777,
+            -0.013743534684181213,
+            0.8923404812812805
+          ]
+        }
+      ]
+    }
+  },
+  "scales": {},
+  "replays": {
+    "PressButton-baseline": {
+      "task": "PressButton",
+      "seed": 53060000,
+      "images": {
+        "53060000": {
+          "ee_camera": "assets/replay-PressButton-baseline/53060000_ee_camera.jpg",
+          "base_camera": "assets/replay-PressButton-baseline/53060000_base_camera.jpg",
+          "scene_camera": "assets/replay-PressButton-baseline/53060000_scene_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-PressButton-baseline/scene_camera.mp4",
+        "base_camera": "assets/replay-PressButton-baseline/base_camera.mp4"
+      },
+      "series": "data/replay-PressButton-baseline.json",
+      "summary": {
+        "ee_error_p95_mm": 9.075552049508126,
+        "tilt_p95_deg": 0.930594352118736,
+        "motor_max_n": 108.26775360107422
+      }
+    },
+    "PressButton-full": {
+      "task": "PressButton",
+      "seed": 53060000,
+      "images": {
+        "53060000": {
+          "ee_camera": "assets/replay-PressButton-full/53060000_ee_camera.jpg",
+          "base_camera": "assets/replay-PressButton-full/53060000_base_camera.jpg",
+          "scene_camera": "assets/replay-PressButton-full/53060000_scene_camera.jpg"
+        }
+      },
+      "videos": {
+        "scene_camera": "assets/replay-PressButton-full/scene_camera.mp4",
+        "base_camera": "assets/replay-PressButton-full/base_camera.mp4"
+      },
+      "series": "data/replay-PressButton-full.json",
+      "summary": {
+        "ee_error_p95_mm": 28.91207550924477,
+        "tilt_p95_deg": 1.1693252560554157,
+        "motor_max_n": 22.923873901367188
+      }
+    }
+  }
+}

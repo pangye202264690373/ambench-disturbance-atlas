@@ -1,0 +1,1800 @@
+{
+  "CabinetPickPlace": {
+    "resolved": {
+      "enable_action_noise": "true",
+      "enable_observation_noise": "false",
+      "enable_saturation": "true",
+      "enable_aerodynamic_effects": "true",
+      "enable_wind_effect": "true",
+      "events": {
+        "randomize_can_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.02",
+                "0.02"
+              ],
+              "y": [
+                "-0.05",
+                "0.05"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "can",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    "robot_actuator": {
+      "thrust_limits": [
+        "0.0",
+        "23.0"
+      ],
+      "reaction_torque_ratio": "0.02",
+      "propeller_radius": "0.152",
+      "response_time_constant_s": "0.02",
+      "normalized_acceleration_limit_per_s": "20.0"
+    },
+    "aerodynamics": {
+      "max_raycast_distance": "5.0",
+      "ground_effect_b": "1.0",
+      "ground_effect_k": "0.171",
+      "wall_effect_a1": "0.05",
+      "wall_effect_b1": "0.34",
+      "wall_effect_a2": "0.02",
+      "wall_effect_b2": "0.25",
+      "drag_coefficients": [
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "wind_force_w": [
+        "2.0",
+        "0.0",
+        "0.0"
+      ]
+    }
+  },
+  "FrameAssembly": {
+    "resolved": {
+      "enable_action_noise": "true",
+      "enable_observation_noise": "false",
+      "enable_saturation": "true",
+      "enable_aerodynamic_effects": "true",
+      "enable_wind_effect": "true",
+      "events": {
+        "randomize_wall_pose": {
+          "func": "ambench.tasks.frame_assembly.frame_assembly_events:randomize_wall_and_pegs",
+          "params": {
+            "wall_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "peg_1_cfg": {
+              "name": "peg_1",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "peg_2_cfg": {
+              "name": "peg_2",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "peg_3_cfg": {
+              "name": "peg_3",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "peg_4_cfg": {
+              "name": "peg_4",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "wall_pose_range": {
+              "x": [
+                "-0.1",
+                "0.1"
+              ],
+              "y": [
+                "-0.2",
+                "0.2"
+              ]
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_frame_position": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.08",
+                "0.08"
+              ],
+              "y": [
+                "-0.12",
+                "0.12"
+              ],
+              "z": [
+                "0.0",
+                "0.0"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "frame_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    "robot_actuator": {
+      "thrust_limits": [
+        "0.0",
+        "23.0"
+      ],
+      "reaction_torque_ratio": "0.02",
+      "propeller_radius": "0.152",
+      "response_time_constant_s": "0.02",
+      "normalized_acceleration_limit_per_s": "20.0"
+    },
+    "aerodynamics": {
+      "max_raycast_distance": "5.0",
+      "ground_effect_b": "1.0",
+      "ground_effect_k": "0.171",
+      "wall_effect_a1": "0.05",
+      "wall_effect_b1": "0.34",
+      "wall_effect_a2": "0.02",
+      "wall_effect_b2": "0.25",
+      "drag_coefficients": [
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "wind_force_w": [
+        "2.0",
+        "0.0",
+        "0.0"
+      ]
+    }
+  },
+  "LemonHarvesting": {
+    "resolved": {
+      "enable_action_noise": "true",
+      "enable_observation_noise": "false",
+      "enable_saturation": "true",
+      "enable_aerodynamic_effects": "true",
+      "enable_wind_effect": "true",
+      "events": {
+        "randomize_lemon_lime_on_wall": {
+          "func": "ambench.tasks.lemon_harvesting.lemon_harvesting_events:randomize_wall_fruit_attachments",
+          "params": {
+            "pos_range": {
+              "y": [
+                "-0.5",
+                "0.5"
+              ],
+              "z": [
+                "1.1",
+                "1.5"
+              ]
+            },
+            "min_sep_yz": "0.15",
+            "break_force": "10.0",
+            "break_torque": "10.0"
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    "robot_actuator": {
+      "thrust_limits": [
+        "0.0",
+        "23.0"
+      ],
+      "reaction_torque_ratio": "0.02",
+      "propeller_radius": "0.152",
+      "response_time_constant_s": "0.02",
+      "normalized_acceleration_limit_per_s": "20.0"
+    },
+    "aerodynamics": {
+      "max_raycast_distance": "5.0",
+      "ground_effect_b": "1.0",
+      "ground_effect_k": "0.171",
+      "wall_effect_a1": "0.05",
+      "wall_effect_b1": "0.34",
+      "wall_effect_a2": "0.02",
+      "wall_effect_b2": "0.25",
+      "drag_coefficients": [
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "wind_force_w": [
+        "2.0",
+        "0.0",
+        "0.0"
+      ]
+    }
+  },
+  "NDT": {
+    "resolved": {
+      "enable_action_noise": "true",
+      "enable_observation_noise": "false",
+      "enable_saturation": "true",
+      "enable_aerodynamic_effects": "true",
+      "enable_wind_effect": "true",
+      "events": "null"
+    },
+    "robot_actuator": {
+      "thrust_limits": [
+        "0.0",
+        "23.0"
+      ],
+      "reaction_torque_ratio": "0.02",
+      "propeller_radius": "0.152",
+      "response_time_constant_s": "0.02",
+      "normalized_acceleration_limit_per_s": "20.0"
+    },
+    "aerodynamics": {
+      "max_raycast_distance": "5.0",
+      "ground_effect_b": "1.0",
+      "ground_effect_k": "0.171",
+      "wall_effect_a1": "0.05",
+      "wall_effect_b1": "0.34",
+      "wall_effect_a2": "0.02",
+      "wall_effect_b2": "0.25",
+      "drag_coefficients": [
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "wind_force_w": [
+        "2.0",
+        "0.0",
+        "0.0"
+      ]
+    }
+  },
+  "OpenDoor": {
+    "resolved": {
+      "enable_action_noise": "true",
+      "enable_observation_noise": "false",
+      "enable_saturation": "true",
+      "enable_aerodynamic_effects": "true",
+      "enable_wind_effect": "true",
+      "events": {
+        "randomize_door_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.3",
+                "0.3"
+              ],
+              "y": [
+                "-0.3",
+                "0.3"
+              ],
+              "yaw": [
+                "-0.2617993877991494",
+                "0.2617993877991494"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "door",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_door_gains": {
+          "func": "isaaclab.envs.mdp.events:randomize_actuator_gains",
+          "params": {
+            "asset_cfg": {
+              "name": "door",
+              "joint_names": [
+                "Hinge"
+              ],
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "damping_distribution_params": [
+              "0.5",
+              "2.0"
+            ],
+            "operation": "scale",
+            "distribution": "uniform"
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    "robot_actuator": {
+      "thrust_limits": [
+        "0.0",
+        "23.0"
+      ],
+      "reaction_torque_ratio": "0.02",
+      "propeller_radius": "0.152",
+      "response_time_constant_s": "0.02",
+      "normalized_acceleration_limit_per_s": "20.0"
+    },
+    "aerodynamics": {
+      "max_raycast_distance": "5.0",
+      "ground_effect_b": "1.0",
+      "ground_effect_k": "0.171",
+      "wall_effect_a1": "0.05",
+      "wall_effect_b1": "0.34",
+      "wall_effect_a2": "0.02",
+      "wall_effect_b2": "0.25",
+      "drag_coefficients": [
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "wind_force_w": [
+        "2.0",
+        "0.0",
+        "0.0"
+      ]
+    }
+  },
+  "PegInHole": {
+    "resolved": {
+      "enable_action_noise": "true",
+      "enable_observation_noise": "false",
+      "enable_saturation": "true",
+      "enable_aerodynamic_effects": "true",
+      "enable_wind_effect": "true",
+      "events": {
+        "randomize_wall_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.2",
+                "0.2"
+              ],
+              "y": [
+                "-0.2",
+                "0.2"
+              ],
+              "pitch": [
+                "-0.5235987755982988",
+                "0.5235987755982988"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_hole_position": {
+          "func": "ambench.tasks.peg_in_hole.peg_in_hole_events:randomize_hole_position_on_wall",
+          "params": {
+            "wall_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "hole_cfg": {
+              "name": "hole_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "y_range": [
+              "-0.3",
+              "0.3"
+            ],
+            "z_range": [
+              "-0.3",
+              "0.3"
+            ]
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_hole_scale": {
+          "func": "ambench.tasks.peg_in_hole.peg_in_hole_events:randomize_hole_scale",
+          "params": {
+            "scale_range": [
+              "0.75",
+              "1.5"
+            ]
+          },
+          "mode": "prestartup",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    "robot_actuator": {
+      "thrust_limits": [
+        "0.0",
+        "23.0"
+      ],
+      "reaction_torque_ratio": "0.02",
+      "propeller_radius": "0.152",
+      "response_time_constant_s": "0.02",
+      "normalized_acceleration_limit_per_s": "20.0"
+    },
+    "aerodynamics": {
+      "max_raycast_distance": "5.0",
+      "ground_effect_b": "1.0",
+      "ground_effect_k": "0.171",
+      "wall_effect_a1": "0.05",
+      "wall_effect_b1": "0.34",
+      "wall_effect_a2": "0.02",
+      "wall_effect_b2": "0.25",
+      "drag_coefficients": [
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "wind_force_w": [
+        "2.0",
+        "0.0",
+        "0.0"
+      ]
+    }
+  },
+  "PressButton": {
+    "resolved": {
+      "enable_action_noise": "true",
+      "enable_observation_noise": "false",
+      "enable_saturation": "true",
+      "enable_aerodynamic_effects": "true",
+      "enable_wind_effect": "true",
+      "events": {
+        "randomize_wall_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.2",
+                "0.2"
+              ],
+              "y": [
+                "-0.2",
+                "0.2"
+              ],
+              "pitch": [
+                "-0.2",
+                "0.2"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_button_position": {
+          "func": "ambench.tasks.press_button.press_button_events:randomize_button_position_on_wall",
+          "params": {
+            "wall_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "button_cfg": {
+              "name": "button",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "y_range": [
+              "-0.3",
+              "0.3"
+            ],
+            "z_range": [
+              "-0.3",
+              "0.3"
+            ]
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_button_scale": {
+          "func": "ambench.tasks.press_button.press_button_events:randomize_button_scale",
+          "params": {
+            "scale_range": [
+              "0.5",
+              "1.0"
+            ]
+          },
+          "mode": "prestartup",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    "robot_actuator": {
+      "thrust_limits": [
+        "0.0",
+        "23.0"
+      ],
+      "reaction_torque_ratio": "0.02",
+      "propeller_radius": "0.152",
+      "response_time_constant_s": "0.02",
+      "normalized_acceleration_limit_per_s": "20.0"
+    },
+    "aerodynamics": {
+      "max_raycast_distance": "5.0",
+      "ground_effect_b": "1.0",
+      "ground_effect_k": "0.171",
+      "wall_effect_a1": "0.05",
+      "wall_effect_b1": "0.34",
+      "wall_effect_a2": "0.02",
+      "wall_effect_b2": "0.25",
+      "drag_coefficients": [
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "wind_force_w": [
+        "2.0",
+        "0.0",
+        "0.0"
+      ]
+    }
+  },
+  "PullLever": {
+    "resolved": {
+      "enable_action_noise": "true",
+      "enable_observation_noise": "false",
+      "enable_saturation": "true",
+      "enable_aerodynamic_effects": "true",
+      "enable_wind_effect": "true",
+      "events": {
+        "randomize_wall_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.2",
+                "0.2"
+              ],
+              "y": [
+                "-0.2",
+                "0.2"
+              ],
+              "pitch": [
+                "-0.08726646259971647",
+                "0.08726646259971647"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_lever_position": {
+          "func": "ambench.tasks.pull_lever.pull_lever_events:randomize_lever_position_on_wall",
+          "params": {
+            "wall_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "lever_cfg": {
+              "name": "lever_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "y_range": [
+              "-0.3",
+              "0.3"
+            ],
+            "z_range": [
+              "-0.3",
+              "0.3"
+            ]
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_lever_collision_color": {
+          "func": "isaaclab.envs.mdp.events:randomize_visual_color",
+          "params": {
+            "asset_cfg": {
+              "name": "lever_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "mesh_name": "lever/lever/lever_collision",
+            "colors": {
+              "r": [
+                "0.05",
+                "0.95"
+              ],
+              "g": [
+                "0.05",
+                "0.95"
+              ],
+              "b": [
+                "0.05",
+                "0.95"
+              ]
+            },
+            "event_name": "lever_collision_color_randomizer"
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_tip_collision_color": {
+          "func": "isaaclab.envs.mdp.events:randomize_visual_color",
+          "params": {
+            "asset_cfg": {
+              "name": "lever_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "mesh_name": "lever/lever/tip_collision",
+            "colors": {
+              "r": [
+                "0.05",
+                "0.95"
+              ],
+              "g": [
+                "0.05",
+                "0.95"
+              ],
+              "b": [
+                "0.05",
+                "0.95"
+              ]
+            },
+            "event_name": "tip_collision_color_randomizer"
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    "robot_actuator": {
+      "thrust_limits": [
+        "0.0",
+        "23.0"
+      ],
+      "reaction_torque_ratio": "0.02",
+      "propeller_radius": "0.152",
+      "response_time_constant_s": "0.02",
+      "normalized_acceleration_limit_per_s": "20.0"
+    },
+    "aerodynamics": {
+      "max_raycast_distance": "5.0",
+      "ground_effect_b": "1.0",
+      "ground_effect_k": "0.171",
+      "wall_effect_a1": "0.05",
+      "wall_effect_b1": "0.34",
+      "wall_effect_a2": "0.02",
+      "wall_effect_b2": "0.25",
+      "drag_coefficients": [
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "wind_force_w": [
+        "2.0",
+        "0.0",
+        "0.0"
+      ]
+    }
+  },
+  "PushSlider": {
+    "resolved": {
+      "enable_action_noise": "true",
+      "enable_observation_noise": "false",
+      "enable_saturation": "true",
+      "enable_aerodynamic_effects": "true",
+      "enable_wind_effect": "true",
+      "events": {
+        "randomize_wall_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.2",
+                "0.2"
+              ],
+              "y": [
+                "-0.2",
+                "0.2"
+              ],
+              "pitch": [
+                "0",
+                "0"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_slider_position": {
+          "func": "ambench.tasks.push_slider.push_slider_events:randomize_slider_position_on_wall",
+          "params": {
+            "wall_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "slider_cfg": {
+              "name": "slider",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "y_range": [
+              "-0.3",
+              "0.3"
+            ],
+            "z_range": [
+              "-0.3",
+              "0.3"
+            ]
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    "robot_actuator": {
+      "thrust_limits": [
+        "0.0",
+        "23.0"
+      ],
+      "reaction_torque_ratio": "0.02",
+      "propeller_radius": "0.152",
+      "response_time_constant_s": "0.02",
+      "normalized_acceleration_limit_per_s": "20.0"
+    },
+    "aerodynamics": {
+      "max_raycast_distance": "5.0",
+      "ground_effect_b": "1.0",
+      "ground_effect_k": "0.171",
+      "wall_effect_a1": "0.05",
+      "wall_effect_b1": "0.34",
+      "wall_effect_a2": "0.02",
+      "wall_effect_b2": "0.25",
+      "drag_coefficients": [
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "wind_force_w": [
+        "2.0",
+        "0.0",
+        "0.0"
+      ]
+    }
+  },
+  "RotateValve": {
+    "resolved": {
+      "enable_action_noise": "true",
+      "enable_observation_noise": "false",
+      "enable_saturation": "true",
+      "enable_aerodynamic_effects": "true",
+      "enable_wind_effect": "true",
+      "events": {
+        "randomize_wall_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.2",
+                "0.2"
+              ],
+              "y": [
+                "-0.2",
+                "0.2"
+              ],
+              "pitch": [
+                "0",
+                "0"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_valve_position": {
+          "func": "ambench.tasks.rotate_valve.rotate_valve_events:randomize_valve_position_on_wall",
+          "params": {
+            "wall_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "valve_cfg": {
+              "name": "valve_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "y_range": [
+              "-0.2",
+              "0.2"
+            ],
+            "z_range": [
+              "-0.2",
+              "0.2"
+            ]
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    "robot_actuator": {
+      "thrust_limits": [
+        "0.0",
+        "23.0"
+      ],
+      "reaction_torque_ratio": "0.02",
+      "propeller_radius": "0.152",
+      "response_time_constant_s": "0.02",
+      "normalized_acceleration_limit_per_s": "20.0"
+    },
+    "aerodynamics": {
+      "max_raycast_distance": "5.0",
+      "ground_effect_b": "1.0",
+      "ground_effect_k": "0.171",
+      "wall_effect_a1": "0.05",
+      "wall_effect_b1": "0.34",
+      "wall_effect_a2": "0.02",
+      "wall_effect_b2": "0.25",
+      "drag_coefficients": [
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "wind_force_w": [
+        "2.0",
+        "0.0",
+        "0.0"
+      ]
+    }
+  },
+  "TossBall": {
+    "resolved": {
+      "enable_action_noise": "true",
+      "enable_observation_noise": "false",
+      "enable_saturation": "true",
+      "enable_aerodynamic_effects": "true",
+      "enable_wind_effect": "true",
+      "events": {
+        "randomize_container_position": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.5",
+                "0.5"
+              ],
+              "y": [
+                "-0.5",
+                "0.5"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "container",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    "robot_actuator": {
+      "thrust_limits": [
+        "0.0",
+        "23.0"
+      ],
+      "reaction_torque_ratio": "0.02",
+      "propeller_radius": "0.152",
+      "response_time_constant_s": "0.02",
+      "normalized_acceleration_limit_per_s": "20.0"
+    },
+    "aerodynamics": {
+      "max_raycast_distance": "5.0",
+      "ground_effect_b": "1.0",
+      "ground_effect_k": "0.171",
+      "wall_effect_a1": "0.05",
+      "wall_effect_b1": "0.34",
+      "wall_effect_a2": "0.02",
+      "wall_effect_b2": "0.25",
+      "drag_coefficients": [
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "wind_force_w": [
+        "2.0",
+        "0.0",
+        "0.0"
+      ]
+    }
+  },
+  "WipeWindow": {
+    "resolved": {
+      "enable_action_noise": "true",
+      "enable_observation_noise": "false",
+      "enable_saturation": "true",
+      "enable_aerodynamic_effects": "true",
+      "enable_wind_effect": "true",
+      "events": {
+        "randomize_window_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.2",
+                "0.2"
+              ],
+              "y": [
+                "-0.2",
+                "0.2"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "window_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "set_dot_positions": {
+          "func": "ambench.tasks.wipe_window.wipe_window_events:set_dots_position_on_window",
+          "params": {
+            "window_cfg": {
+              "name": "window_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_window_friction": {
+          "func": "isaaclab.envs.mdp.events:randomize_rigid_body_material",
+          "params": {
+            "asset_cfg": {
+              "name": "window_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "static_friction_range": [
+              "0.2",
+              "0.4"
+            ],
+            "dynamic_friction_range": [
+              "0.1",
+              "0.3"
+            ],
+            "restitution_range": [
+              "0.0",
+              "0.0"
+            ],
+            "num_buckets": "16",
+            "make_consistent": "true"
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    "robot_actuator": {
+      "thrust_limits": [
+        "0.0",
+        "23.0"
+      ],
+      "reaction_torque_ratio": "0.02",
+      "propeller_radius": "0.152",
+      "response_time_constant_s": "0.02",
+      "normalized_acceleration_limit_per_s": "20.0"
+    },
+    "aerodynamics": {
+      "max_raycast_distance": "5.0",
+      "ground_effect_b": "1.0",
+      "ground_effect_k": "0.171",
+      "wall_effect_a1": "0.05",
+      "wall_effect_b1": "0.34",
+      "wall_effect_a2": "0.02",
+      "wall_effect_b2": "0.25",
+      "drag_coefficients": [
+        "0.1",
+        "0.1",
+        "0.1"
+      ],
+      "wind_force_w": [
+        "2.0",
+        "0.0",
+        "0.0"
+      ]
+    }
+  }
+}

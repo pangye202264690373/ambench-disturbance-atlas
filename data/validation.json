@@ -1,0 +1,108 @@
+{
+  "images": [
+    "assets/scene-CabinetPickPlace/53000009_scene_camera.jpg",
+    "assets/scene-CabinetPickPlace/53000003_base_camera.jpg",
+    "assets/scene-CabinetPickPlace/53000000_base_camera.jpg",
+    "assets/scene-CabinetPickPlace/53000009_base_camera.jpg",
+    "assets/scene-CabinetPickPlace/53000000_ee_camera.jpg",
+    "assets/scene-CabinetPickPlace/53000003_ee_camera.jpg",
+    "assets/scene-CabinetPickPlace/53000003_scene_camera.jpg",
+    "assets/scene-CabinetPickPlace/53000000_scene_camera.jpg",
+    "assets/scene-CabinetPickPlace/53000009_ee_camera.jpg",
+    "assets/scene-FrameAssembly/53010009_ee_camera.jpg",
+    "assets/scene-FrameAssembly/53010003_detail.jpg",
+    "assets/scene-FrameAssembly/53010000_detail.jpg",
+    "assets/scene-FrameAssembly/53010003_scene_camera.jpg",
+    "assets/scene-FrameAssembly/53010009_detail.jpg",
+    "assets/scene-FrameAssembly/53010009_scene_camera.jpg",
+    "assets/scene-FrameAssembly/53010000_ee_camera.jpg",
+    "assets/scene-FrameAssembly/53010000_scene_camera.jpg",
+    "assets/scene-FrameAssembly/53010003_base_camera.jpg",
+    "assets/scene-FrameAssembly/53010000_base_camera.jpg",
+    "assets/scene-FrameAssembly/53010009_base_camera.jpg",
+    "assets/scene-FrameAssembly/53010003_ee_camera.jpg",
+    "assets/scene-LemonHarvesting/53020009_scene_camera.jpg",
+    "assets/scene-LemonHarvesting/53020000_scene_camera.jpg",
+    "assets/scene-LemonHarvesting/53020000_base_camera.jpg",
+    "assets/scene-LemonHarvesting/53020009_detail.jpg",
+    "assets/scene-LemonHarvesting/53020009_ee_camera.jpg",
+    "assets/scene-LemonHarvesting/53020003_detail.jpg",
+    "assets/scene-LemonHarvesting/53020000_detail.jpg",
+    "assets/scene-LemonHarvesting/53020003_base_camera.jpg",
+    "assets/scene-LemonHarvesting/53020009_base_camera.jpg",
+    "assets/scene-LemonHarvesting/53020003_ee_camera.jpg",
+    "assets/scene-LemonHarvesting/53020003_scene_camera.jpg",
+    "assets/scene-LemonHarvesting/53020000_ee_camera.jpg",
+    "assets/scene-NDT/53030009_scene_camera.jpg",
+    "assets/scene-NDT/53030000_detail.jpg",
+    "assets/scene-NDT/53030000_ee_camera.jpg",
+    "assets/scene-NDT/53030009_detail.jpg",
+    "assets/scene-NDT/53030009_ee_camera.jpg",
+    "assets/scene-NDT/53030003_scene_camera.jpg",
+    "assets/scene-NDT/53030009_base_camera.jpg",
+    "assets/scene-NDT/53030000_base_camera.jpg",
+    "assets/scene-NDT/53030003_ee_camera.jpg",
+    "assets/scene-NDT/53030000_scene_camera.jpg",
+    "assets/scene-NDT/53030003_base_camera.jpg",
+    "assets/scene-NDT/53030003_detail.jpg",
+    "assets/scene-PressButton/53060000_ee_camera.jpg",
+    "assets/scene-PressButton/53060000_base_camera.jpg",
+    "assets/scene-PressButton/53060009_scene_camera.jpg",
+    "assets/scene-PressButton/53060003_ee_camera.jpg",
+    "assets/scene-PressButton/53060003_scene_camera.jpg",
+    "assets/scene-PressButton/53060009_ee_camera.jpg",
+    "assets/scene-PressButton/53060003_base_camera.jpg",
+    "assets/scene-PressButton/53060009_base_camera.jpg",
+    "assets/scene-PressButton/53060000_scene_camera.jpg",
+    "assets/replay-PressButton-baseline/53060000_ee_camera.jpg",
+    "assets/replay-PressButton-baseline/53060000_base_camera.jpg",
+    "assets/replay-PressButton-baseline/53060000_scene_camera.jpg",
+    "assets/replay-PressButton-full/53060000_ee_camera.jpg",
+    "assets/replay-PressButton-full/53060000_base_camera.jpg",
+    "assets/replay-PressButton-full/53060000_scene_camera.jpg"
+  ],
+  "videos": [
+    {
+      "path": "assets/replay-PressButton-baseline/scene_camera.mp4",
+      "sha256": "bde6254122859f8df37a2a1ea659565d38c91bbda0ce99b953f59ba777376d3c",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-PressButton-baseline/base_camera.mp4",
+      "sha256": "c7823aaa165e6cbd1988dd5b73a127fc644b664b7b59d0818098f32fc71729fc",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-PressButton-full/scene_camera.mp4",
+      "sha256": "79728b8159afc3c07549783bf60ed79066cf28c62ad4866680a22943db503909",
+      "fully_decoded": true
+    },
+    {
+      "path": "assets/replay-PressButton-full/base_camera.mp4",
+      "sha256": "925b4a447691c91ca785d95fdab5af6fc45cb0418687f45477f40e9d4d4d585f",
+      "fully_decoded": true
+    }
+  ],
+  "trajectories": [
+    {
+      "case": "replay-PressButton-baseline",
+      "rows": 960,
+      "gzip_parsed": true,
+      "sha256": "b0707b337c6fcc6b7f090ecb426236160afd2c9dce683a4791b0079974ad36b9"
+    },
+    {
+      "case": "replay-PressButton-full",
+      "rows": 960,
+      "gzip_parsed": true,
+      "sha256": "e5f0b3d57f9fe2967e3fa579c829fca52ab850aa16118d225aef663c058d8c1b"
+    }
+  ],
+  "pair_checks": [
+    {
+      "task": "PressButton",
+      "conditions": 2,
+      "identical_initial_signature": true,
+      "identical_commands": true
+    }
+  ]
+}

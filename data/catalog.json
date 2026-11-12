@@ -1,0 +1,1642 @@
+{
+  "tasks": [
+    {
+      "key": "CabinetPickPlace",
+      "title": "柜内取放",
+      "topic": "罐子位置",
+      "range": "X ±2 cm · Y ±5 cm",
+      "note": "柜体、罐子质量未随机化。",
+      "seeds": [
+        53000000,
+        53000003,
+        53000009
+      ],
+      "events": {
+        "randomize_can_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.02",
+                "0.02"
+              ],
+              "y": [
+                "-0.05",
+                "0.05"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "can",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    {
+      "key": "FrameAssembly",
+      "title": "框架装配",
+      "topic": "墙面与框架位置",
+      "range": "墙 X ±10 / Y ±20 cm；框架 X ±8 / Y ±12 cm",
+      "note": "四个挂钉跟随墙面整体移动。",
+      "seeds": [
+        53010000,
+        53010003,
+        53010009
+      ],
+      "events": {
+        "randomize_wall_pose": {
+          "func": "ambench.tasks.frame_assembly.frame_assembly_events:randomize_wall_and_pegs",
+          "params": {
+            "wall_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "peg_1_cfg": {
+              "name": "peg_1",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "peg_2_cfg": {
+              "name": "peg_2",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "peg_3_cfg": {
+              "name": "peg_3",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "peg_4_cfg": {
+              "name": "peg_4",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "wall_pose_range": {
+              "x": [
+                "-0.1",
+                "0.1"
+              ],
+              "y": [
+                "-0.2",
+                "0.2"
+              ]
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_frame_position": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.08",
+                "0.08"
+              ],
+              "y": [
+                "-0.12",
+                "0.12"
+              ],
+              "z": [
+                "0.0",
+                "0.0"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "frame_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    {
+      "key": "LemonHarvesting",
+      "title": "柠檬采摘",
+      "topic": "果实挂载位置",
+      "range": "Y −0.5～0.5 m · Z 1.1～1.5 m",
+      "note": "目标与干扰果实保持至少15 cm间隔；随机采样受墙面边界约束。",
+      "seeds": [
+        53020000,
+        53020003,
+        53020009
+      ],
+      "events": {
+        "randomize_lemon_lime_on_wall": {
+          "func": "ambench.tasks.lemon_harvesting.lemon_harvesting_events:randomize_wall_fruit_attachments",
+          "params": {
+            "pos_range": {
+              "y": [
+                "-0.5",
+                "0.5"
+              ],
+              "z": [
+                "1.1",
+                "1.5"
+              ]
+            },
+            "min_sep_yz": "0.15",
+            "break_force": "10.0",
+            "break_torque": "10.0"
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    {
+      "key": "NDT",
+      "title": "无损检测",
+      "topic": "无独立场景随机事件",
+      "range": "检测标记与目标位置固定",
+      "note": "不同seed的初始场景应保持一致；full中的动作噪声仍然变化。",
+      "seeds": [
+        53030000,
+        53030003,
+        53030009
+      ],
+      "events": "null"
+    },
+    {
+      "key": "OpenDoor",
+      "title": "开门",
+      "topic": "门位姿与铰链阻尼",
+      "range": "X/Y ±30 cm · yaw ±15° · 阻尼 0.5～2×",
+      "note": "随机的是阻尼；门质量与关节摩擦的随机化被注释关闭。",
+      "seeds": [
+        53040000,
+        53040003,
+        53040009
+      ],
+      "events": {
+        "randomize_door_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.3",
+                "0.3"
+              ],
+              "y": [
+                "-0.3",
+                "0.3"
+              ],
+              "yaw": [
+                "-0.2617993877991494",
+                "0.2617993877991494"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "door",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_door_gains": {
+          "func": "isaaclab.envs.mdp.events:randomize_actuator_gains",
+          "params": {
+            "asset_cfg": {
+              "name": "door",
+              "joint_names": [
+                "Hinge"
+              ],
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "damping_distribution_params": [
+              "0.5",
+              "2.0"
+            ],
+            "operation": "scale",
+            "distribution": "uniform"
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    {
+      "key": "PegInHole",
+      "title": "插孔",
+      "topic": "墙位姿、孔位置与尺寸",
+      "range": "墙 X/Y ±20 cm · pitch ±30°；孔 Y/Z ±30 cm；尺度0.75～1.5×",
+      "note": "孔尺寸在prestartup采样，同一环境的reset不重抽尺度。",
+      "seeds": [
+        53050000,
+        53050003,
+        53050009
+      ],
+      "events": {
+        "randomize_wall_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.2",
+                "0.2"
+              ],
+              "y": [
+                "-0.2",
+                "0.2"
+              ],
+              "pitch": [
+                "-0.5235987755982988",
+                "0.5235987755982988"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_hole_position": {
+          "func": "ambench.tasks.peg_in_hole.peg_in_hole_events:randomize_hole_position_on_wall",
+          "params": {
+            "wall_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "hole_cfg": {
+              "name": "hole_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "y_range": [
+              "-0.3",
+              "0.3"
+            ],
+            "z_range": [
+              "-0.3",
+              "0.3"
+            ]
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_hole_scale": {
+          "func": "ambench.tasks.peg_in_hole.peg_in_hole_events:randomize_hole_scale",
+          "params": {
+            "scale_range": [
+              "0.75",
+              "1.5"
+            ]
+          },
+          "mode": "prestartup",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    {
+      "key": "PressButton",
+      "title": "按按钮",
+      "topic": "墙位姿、按钮位置与尺寸",
+      "range": "墙 X/Y ±20 cm · pitch ±11.46°；按钮 Y/Z ±30 cm；尺度0.5～1×",
+      "note": "按钮只缩放Y/Z，厚度不变；尺度在prestartup采样。",
+      "seeds": [
+        53060000,
+        53060003,
+        53060009
+      ],
+      "events": {
+        "randomize_wall_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.2",
+                "0.2"
+              ],
+              "y": [
+                "-0.2",
+                "0.2"
+              ],
+              "pitch": [
+                "-0.2",
+                "0.2"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_button_position": {
+          "func": "ambench.tasks.press_button.press_button_events:randomize_button_position_on_wall",
+          "params": {
+            "wall_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "button_cfg": {
+              "name": "button",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "y_range": [
+              "-0.3",
+              "0.3"
+            ],
+            "z_range": [
+              "-0.3",
+              "0.3"
+            ]
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_button_scale": {
+          "func": "ambench.tasks.press_button.press_button_events:randomize_button_scale",
+          "params": {
+            "scale_range": [
+              "0.5",
+              "1.0"
+            ]
+          },
+          "mode": "prestartup",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    {
+      "key": "PullLever",
+      "title": "拉杆",
+      "topic": "墙位姿、拉杆位置与颜色",
+      "range": "墙 X/Y ±20 cm · pitch ±5°；拉杆 Y/Z ±30 cm",
+      "note": "手柄和端头分别采样RGB，单通道0.05～0.95。",
+      "seeds": [
+        53070000,
+        53070003,
+        53070009
+      ],
+      "events": {
+        "randomize_wall_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.2",
+                "0.2"
+              ],
+              "y": [
+                "-0.2",
+                "0.2"
+              ],
+              "pitch": [
+                "-0.08726646259971647",
+                "0.08726646259971647"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_lever_position": {
+          "func": "ambench.tasks.pull_lever.pull_lever_events:randomize_lever_position_on_wall",
+          "params": {
+            "wall_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "lever_cfg": {
+              "name": "lever_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "y_range": [
+              "-0.3",
+              "0.3"
+            ],
+            "z_range": [
+              "-0.3",
+              "0.3"
+            ]
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_lever_collision_color": {
+          "func": "isaaclab.envs.mdp.events:randomize_visual_color",
+          "params": {
+            "asset_cfg": {
+              "name": "lever_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "mesh_name": "lever/lever/lever_collision",
+            "colors": {
+              "r": [
+                "0.05",
+                "0.95"
+              ],
+              "g": [
+                "0.05",
+                "0.95"
+              ],
+              "b": [
+                "0.05",
+                "0.95"
+              ]
+            },
+            "event_name": "lever_collision_color_randomizer"
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_tip_collision_color": {
+          "func": "isaaclab.envs.mdp.events:randomize_visual_color",
+          "params": {
+            "asset_cfg": {
+              "name": "lever_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "mesh_name": "lever/lever/tip_collision",
+            "colors": {
+              "r": [
+                "0.05",
+                "0.95"
+              ],
+              "g": [
+                "0.05",
+                "0.95"
+              ],
+              "b": [
+                "0.05",
+                "0.95"
+              ]
+            },
+            "event_name": "tip_collision_color_randomizer"
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    {
+      "key": "PushSlider",
+      "title": "推滑块",
+      "topic": "墙与滑块位置",
+      "range": "墙 X/Y ±20 cm；滑块 Y/Z ±30 cm",
+      "note": "墙pitch实际是0～0；摩擦随机化函数已实现但事件关闭。",
+      "seeds": [
+        53080000,
+        53080003,
+        53080009
+      ],
+      "events": {
+        "randomize_wall_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.2",
+                "0.2"
+              ],
+              "y": [
+                "-0.2",
+                "0.2"
+              ],
+              "pitch": [
+                "0",
+                "0"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_slider_position": {
+          "func": "ambench.tasks.push_slider.push_slider_events:randomize_slider_position_on_wall",
+          "params": {
+            "wall_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "slider_cfg": {
+              "name": "slider",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "y_range": [
+              "-0.3",
+              "0.3"
+            ],
+            "z_range": [
+              "-0.3",
+              "0.3"
+            ]
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    {
+      "key": "RotateValve",
+      "title": "转阀门",
+      "topic": "墙与阀门位置",
+      "range": "墙 X/Y ±20 cm；阀门 Y/Z ±20 cm",
+      "note": "墙pitch实际是0～0，不应写成随机倾斜。",
+      "seeds": [
+        53090000,
+        53090003,
+        53090009
+      ],
+      "events": {
+        "randomize_wall_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.2",
+                "0.2"
+              ],
+              "y": [
+                "-0.2",
+                "0.2"
+              ],
+              "pitch": [
+                "0",
+                "0"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_valve_position": {
+          "func": "ambench.tasks.rotate_valve.rotate_valve_events:randomize_valve_position_on_wall",
+          "params": {
+            "wall_cfg": {
+              "name": "wall",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "valve_cfg": {
+              "name": "valve_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "y_range": [
+              "-0.2",
+              "0.2"
+            ],
+            "z_range": [
+              "-0.2",
+              "0.2"
+            ]
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    {
+      "key": "TossBall",
+      "title": "投球",
+      "topic": "篮子位置",
+      "range": "篮子 X/Y ±50 cm",
+      "note": "机身相机固定下倾30°，腕部不变；相机朝向不是随机变量。",
+      "seeds": [
+        53100000,
+        53100003,
+        53100009
+      ],
+      "events": {
+        "randomize_container_position": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.5",
+                "0.5"
+              ],
+              "y": [
+                "-0.5",
+                "0.5"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "container",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    },
+    {
+      "key": "WipeWindow",
+      "title": "擦窗",
+      "topic": "窗位置、污点与摩擦",
+      "range": "窗 X/Y ±20 cm；静摩擦0.2～0.4；动摩擦0.1～0.3",
+      "note": "4个污点在窗面中心Y/Z各±9 cm范围随机，非全玻璃覆盖；摩擦16桶。",
+      "seeds": [
+        53110000,
+        53110003,
+        53110009
+      ],
+      "events": {
+        "randomize_window_pose": {
+          "func": "isaaclab.envs.mdp.events:reset_root_state_uniform",
+          "params": {
+            "pose_range": {
+              "x": [
+                "-0.2",
+                "0.2"
+              ],
+              "y": [
+                "-0.2",
+                "0.2"
+              ]
+            },
+            "velocity_range": {},
+            "asset_cfg": {
+              "name": "window_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "set_dot_positions": {
+          "func": "ambench.tasks.wipe_window.wipe_window_events:set_dots_position_on_window",
+          "params": {
+            "window_cfg": {
+              "name": "window_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            }
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        },
+        "randomize_window_friction": {
+          "func": "isaaclab.envs.mdp.events:randomize_rigid_body_material",
+          "params": {
+            "asset_cfg": {
+              "name": "window_object",
+              "joint_names": "null",
+              "joint_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "fixed_tendon_names": "null",
+              "fixed_tendon_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "body_names": "null",
+              "body_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "object_collection_names": "null",
+              "object_collection_ids": [
+                "null",
+                "null",
+                "null"
+              ],
+              "preserve_order": "false"
+            },
+            "static_friction_range": [
+              "0.2",
+              "0.4"
+            ],
+            "dynamic_friction_range": [
+              "0.1",
+              "0.3"
+            ],
+            "restitution_range": [
+              "0.0",
+              "0.0"
+            ],
+            "num_buckets": "16",
+            "make_consistent": "true"
+          },
+          "mode": "reset",
+          "interval_range_s": "null",
+          "is_global_time": "false",
+          "min_step_count_between_reset": "0"
+        }
+      }
+    }
+  ],
+  "variants": [
+    {
+      "key": "baseline",
+      "title": "无附加扰动",
+      "note": "动作噪声、饱和、旋翼动态、气动与恒力均关闭；原生接触与重力保留。"
+    },
+    {
+      "key": "noise",
+      "title": "仅动作噪声",
+      "note": "高斯加性噪声 σ=0.0001；不人为放大。"
+    },
+    {
+      "key": "saturation",
+      "title": "仅推力饱和",
+      "note": "每旋翼0～23 N限幅，瞬时响应。"
+    },
+    {
+      "key": "dynamics",
+      "title": "饱和＋旋翼动态",
+      "note": "在饱和基础上加τ=0.02 s与归一化转速变化率20 s⁻¹；应与“仅饱和”比较。"
+    },
+    {
+      "key": "ground",
+      "title": "仅地面效应",
+      "note": "保留地效项，关闭近墙项与速度阻力。"
+    },
+    {
+      "key": "wall",
+      "title": "仅近墙效应",
+      "note": "保留近墙项，关闭地效项与速度阻力。"
+    },
+    {
+      "key": "drag",
+      "title": "仅速度阻力",
+      "note": "F=−0.1v，机体系线性阻力；关闭地效与近墙。"
+    },
+    {
+      "key": "aero",
+      "title": "完整气动",
+      "note": "地效＋近墙＋速度阻力。"
+    },
+    {
+      "key": "wind",
+      "title": "仅恒力",
+      "note": "世界系+X方向2 N；不是阵风或2 m/s风速。"
+    },
+    {
+      "key": "full",
+      "title": "当前full组合",
+      "note": "动作噪声＋饱和＋旋翼动态＋气动＋世界系+X 2 N。"
+    },
+    {
+      "key": "friction_low",
+      "title": "低摩擦 full",
+      "note": "静摩擦0.2、动摩擦0.1；其他full因素相同。"
+    },
+    {
+      "key": "friction_high",
+      "title": "高摩擦 full",
+      "note": "静摩擦0.4、动摩擦0.3；其他full因素相同。"
+    },
+    {
+      "key": "damping_low",
+      "title": "低门阻尼 full",
+      "note": "铰链阻尼0.5×；其他full因素相同。"
+    },
+    {
+      "key": "damping_high",
+      "title": "高门阻尼 full",
+      "note": "铰链阻尼2×；其他full因素相同。"
+    }
+  ],
+  "inventory": [
+    [
+      "动作高斯噪声",
+      "当前启用",
+      "σ=0.0001，动作接口数值",
+      "随机扰动"
+    ],
+    [
+      "旋翼推力限幅",
+      "当前启用",
+      "每旋翼0～23 N",
+      "固定执行器约束"
+    ],
+    [
+      "旋翼响应与变化率",
+      "当前启用",
+      "τ=0.02 s；20 s⁻¹",
+      "固定执行器动态"
+    ],
+    [
+      "地面／近墙／阻力",
+      "当前启用",
+      "距离或速度相关",
+      "状态相关物理效应"
+    ],
+    [
+      "外部恒力",
+      "当前启用",
+      "世界系(+2,0,0) N，零风力矩",
+      "固定外扰"
+    ],
+    [
+      "数值观测噪声与偏置",
+      "已实现·关闭",
+      "噪声σ=0.002；偏置σ=0.0001",
+      "非像素噪声"
+    ],
+    [
+      "滑块关节摩擦随机化",
+      "已实现·关闭",
+      "专用函数支持set/scale",
+      "事件被注释"
+    ],
+    [
+      "门质量／铰链摩擦",
+      "配置模板·关闭",
+      "调用Isaac Lab通用事件",
+      "未做本次启用验收"
+    ],
+    [
+      "部分墙面纹理随机化",
+      "配置模板·关闭",
+      "Peg/Press/Pull/Push保留模板",
+      "未做本次启用验收"
+    ],
+    [
+      "阵风／随机风向／随机风力矩",
+      "当前未接入",
+      "不能由恒力演示推断",
+      "非当前能力"
+    ],
+    [
+      "全面质量／惯量／重心／电机域随机化",
+      "当前未接入",
+      "没有在本执行路径启用",
+      "非当前能力"
+    ],
+    [
+      "相机位姿／光照／模糊／遮挡／丢帧",
+      "当前未启用",
+      "Toss 30°为固定配置",
+      "非当前随机化"
+    ],
+    [
+      "在线随机通信延迟／丢包",
+      "当前未注入",
+      "RTC训练delay不等于环境注入",
+      "分清训练与环境"
+    ]
+  ]
+}
