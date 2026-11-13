@@ -1,0 +1,68 @@
+{
+  "force_peak_n": 20.0,
+  "torque_peak_nm": 0.2,
+  "startup_s": 1.0,
+  "ramp_s": 0.5,
+  "mean_force": {
+    "enabled": false,
+    "magnitude_n": 0.0,
+    "direction_w": [
+      1,
+      0,
+      0
+    ]
+  },
+  "gust": {
+    "enabled": true,
+    "peak_n": 20.0,
+    "duration_s": [
+      0.6,
+      1.2
+    ],
+    "gap_s": [
+      0.4,
+      1.0
+    ],
+    "first_start_s": 1.5
+  },
+  "random_direction": {
+    "enabled": true,
+    "interval_s": 1.2,
+    "yaw_range_deg": [
+      -180,
+      180
+    ],
+    "fixed_direction_w": [
+      1,
+      0,
+      0
+    ]
+  },
+  "random_strength": {
+    "enabled": true,
+    "interval_s": 1.2,
+    "multiplier_range": [
+      0.25,
+      1.0
+    ],
+    "background_n": 5.0
+  },
+  "constant_torque": {
+    "enabled": false,
+    "vector_w_nm": [
+      0,
+      0,
+      0
+    ]
+  },
+  "random_torque": {
+    "enabled": true,
+    "interval_s": 1.2,
+    "peak_nm": 0.2,
+    "axis_weights": [
+      1,
+      1,
+      1
+    ]
+  }
+}

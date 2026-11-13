@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "decoded_videos": [
+    "assets/hover/hover-off/scene_camera.mp4",
+    "assets/hover/hover-off/base_camera.mp4",
+    "assets/hover/hover-off/wind_vectors.mp4",
+    "assets/hover/hover-wind/scene_camera.mp4",
+    "assets/hover/hover-wind/base_camera.mp4",
+    "assets/hover/hover-wind/wind_vectors.mp4"
+  ],
+  "parsed_rows_per_case": 2400,
+  "same_hold_target": true,
+  "gpu_released": true
+}
