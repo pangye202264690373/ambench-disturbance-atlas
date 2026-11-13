@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-13",
+  "sources": [
+    {
+      "id": "jeon-journal",
+      "title": "Modeling Quadrotor Dynamics in a Wind Field",
+      "year": 2021,
+      "doi": "10.1109/TMECH.2020.3019831",
+      "access": "metadata and abstract only; journal full text not acquired",
+      "url": "https://scholar.dgist.ac.kr/handle/20.500.11750/15379"
+    },
+    {
+      "id": "jeon-thesis",
+      "title": "Resilient Control Systems Design under Malicious Sensor Attacks",
+      "author": "Heegyun Jeon",
+      "year": 2020,
+      "access": "full PDF acquired; chapter5 pp72–83 closely read; not claimed identical to journal",
+      "equations": [
+        "5.4–5.16",
+        "5.17–5.25"
+      ],
+      "url": "https://scholar.dgist.ac.kr/bitstream/20.500.11750/12178/1/200000320382.pdf",
+      "sha256": "f15c9c2131dd9d347605ad0ffbff59b996182f5eb5cc14155f64051b440b18a5"
+    },
+    {
+      "id": "craig",
+      "title": "Dynamics and Control of a Hovering Quadrotor in Wind",
+      "year": 2019,
+      "access": "full PDF acquired; aerodynamic modeling sections3.1–3.3 and4.1/position model read selectively",
+      "equations": [
+        "3.13–3.18",
+        "4.5–4.6",
+        "4.38–4.40"
+      ],
+      "url": "https://drum.lib.umd.edu/bitstreams/e0ed71c0-9477-4c7d-b957-ed7dc59a59b6/download",
+      "sha256": "eaa812c9597eb244be6074d12e34f17de0ef00a0de040223bc07297c267bab8e"
+    },
+    {
+      "id": "kaimal-original",
+      "title": "Spectral characteristics of surface-layer turbulence",
+      "year": 1972,
+      "doi": "10.1002/qj.49709841707",
+      "access": "publisher abstract only; PDF route returned abstract; original full text reading remains incomplete",
+      "url": "https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.49709841707"
+    },
+    {
+      "id": "turbsim",
+      "title": "TurbSim User’s Guide v2.00",
+      "access": "full PDF acquired from official OpenFAST repository; p40 equations22–26 and spatial-coherence pp51–52 read",
+      "scope": "IEC engineering Kaimal form, not identical to original1972 neutral spectra",
+      "url": "https://github.com/OpenFAST/openfast/blob/main/docs/OtherSupporting/TurbSim/TurbSim_v2.00.pdf",
+      "sha256": "c502ca29dffb45b8f4934b6f6679c77c6591a4e850cb0e147fade472596f4bd7"
+    }
+  ],
+  "public_fulltext_copies": false,
+  "new_gpu_jobs": false,
+  "formal_evaluation_paused": true,
+  "development_costs": "author engineering estimates, not paper results"
+}
